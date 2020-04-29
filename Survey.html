@@ -1,0 +1,943 @@
+<!DOCTYPE html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lilac - Survey Page</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body>
+    <!-- Start Sidemenu -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn fa fa-chevron-left" onclick="closeSide()"></a>
+        <img class="mx-auto d-block rounded-circle" src="img/Clients/Client-01.jpg" alt="">
+        <span class="user-name text-center">Nabila Samy</span><br>
+        <a class="text-center" href="userProfile.html"><i class="fas fa-user"></i> Profile</a>
+        <a class="text-center" href="storeAdmin.html"><i class="fas fa-users"></i> Store users</a>
+        <a class="text-center" href="clientsMgmt.html"><i class="fas fa-users"></i> Clients</a>
+        <a class="text-center" href="addNew.html" style="margin-left: -27px;"><i class="fas fa-users"></i> Add in Database</a>
+        <a class="text-center" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    <!-- End Sidemenu -->
+
+    <div id="main">
+        <!--::header part start::-->
+        <header class="main_menu home_menu">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-11">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Open Sidemenu -->
+                            <button class="openbtn fa fa-bars" onclick="openSide()"></button>
+                            <!-- Navbar -->
+                            <a class="navbar-brand" href="index.html"><span>Lilac</span></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="index.html" json-html="Home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="category.html" json-html="Shop">Shop</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" json-html="pages">pages</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                            <a class="dropdown-item" href="login.html" json-html="Login">Login</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="tracking.html" json-html="Tracking">Tracking</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="checkout.html" json-html="Checkout">Checkout</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="cart.html" json-html="Cart">Shopping Cart</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="confirmation.html" json-html="Confirmation">Confirmation</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html" json-html="About">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html" json-html="Contact">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <form action="category.html" action="GET" class="d-flex justify-content-between search-inner">
+                                <input type="text" class="form-control" id="search_input" name="keyword" json-attr="placeholder,Search_Here_ph" placeholder="Search Here" required>
+                                <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header part end-->
+
+        <!--================Home Banner Area =================-->
+        <!-- breadcrumb start-->
+        <section class="breadcrumb breadcrumb_bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb_iner">
+                            <div class="breadcrumb_iner_item">
+                                <p><a href="index.html" style="color: #777777;" json-html="Home">Home</a> / <span json-html="Search_Result">Feedback</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end-->
+
+        <!-- Start Section Survay -->
+        <section class="section_padding survey">
+            <div class="container">
+                <h2 class="mb-30" json-html="Quick_Survay">Quick Survay</h2>
+                <div class="accordion" id="accordionExample">
+
+                    <!-- Qu.1 -->
+                    <div id="webNeds">
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_1" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+                        <br><br><br>
+                        <!-- Start Question 1 -->
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" json-html="Question_1">
+                                        Question #1: Overall, How well does our website meet your needs?
+                                    </button>
+                                </h2>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="webNeeds">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="webNeeds1" name="customRadioInline1" class="custom-control-input" required>
+                                                    <label class="custom-control-label" for="webNeeds1" json-html="Very_Well">Very Well</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="webNeeds2" name="customRadioInline1" class="custom-control-input" required>
+                                                    <label class="custom-control-label" for="webNeeds2" json-html="Somewhat_Well">Somewhat Well</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="webNeeds3" name="customRadioInline1" class="custom-control-input" required>
+                                                    <label class="custom-control-label" for="webNeeds3" json-html="Not_Well">Not so Well</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="webNeeds4" name="customRadioInline1" class="custom-control-input" required>
+                                                    <label class="custom-control-label" for="webNeeds4" json-html="Not_all_Well">Not at all Well</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="webNeeds5" name="customRadioInline1" class="custom-control-input" required>
+                                                    <label class="custom-control-label" for="webNeeds5" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questOne();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 1 -->
+                    </div>
+                    <!-- Qu.1 -->
+
+                    <!-- Qu.2 -->
+                    <div id="timeNeds" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_2" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_3" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 2 -->
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" json-html="Question_2">
+                                        Question #2: How easy was it to find what you were looking for on our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="timeNeeds">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="timeNeeds1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="timeNeeds1" json-html="Very_Easy">Very Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="timeNeeds2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="timeNeeds2" json-html="Somewhat_Easy">Somewhat Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="timeNeeds3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="timeNeeds3" json-html="Not_Easy">Not so Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="timeNeeds4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="timeNeeds4" json-html="Not_at_all_Easy">Not at all Easy</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="timeNeeds5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="timeNeeds5" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questTwo();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 2 -->
+                    </div>
+                    <!-- Qu.2 -->
+
+                    <!-- Qu.3 -->
+                    <div id="takeTim" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_4" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_5" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 3 -->
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" json-html="Question_3">
+                                        Question #3: Did it take you more or less time than you expected to find what you were looking for on our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="takeTime">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime1" json-html="lot_less_time">A lot less time</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime2" json-html="little_less_time">A little less time</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime3" json-html="About_what_expected">About what I expected</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime4" json-html="little_more_time">A little more time</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime5" json-html="lot_more_time">A lot more time</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="takeTime6" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="takeTime6" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questThree();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 3 -->
+                    </div>
+                    <!-- Qu.3 -->
+
+                    <!-- Qu.4 -->
+                    <div id="attWE" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_6" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_7" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 4 -->
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour" json-html="Question_4">
+                                        Question #4: How visually attractive is our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="attrWeb">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="attrWeb1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="attrWeb1" json-html="Very_Attractive">Very Attractive</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="attrWeb2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="attrWeb2" json-html="Somewhat_Attractive">Somewhat Attractive</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="attrWeb3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="attrWeb3" json-html="Not_so_Attractive">Not so Attractive</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="attrWeb4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="attrWeb4" json-html="Not_at_all_Attractive">Not at all Attractive</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="attrWeb5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="attrWeb5" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questFour();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 4 -->
+                    </div>
+                    <!-- Qu.4 -->
+
+                    <!-- Qu.5 -->
+                    <div id="uStandd" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_8" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_9" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 5 -->
+                        <div class="card">
+                            <div class="card-header" id="headingFive">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive" json-html="Question_5">
+                                        Question #5: How easy is it to understand the information on our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="unStand">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="unStand1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="unStand1" json-html="Very_Easy">Very Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="unStand2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="unStand2" json-html="Somewhat_Easy">Somewhat Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="unStand3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="unStand3" json-html="Not_Easy">Not so Easy</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="unStand4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="unStand4" json-html="Not_at_all_Easy">Not at all Easy</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="unStand5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="unStand5" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questFive();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 5 -->
+                    </div>
+                    <!-- Qu.5 -->
+
+                    <!-- Qu.6 -->
+                    <div id="trusWE" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_10" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_11" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 6 -->
+                        <div class="card">
+                            <div class="card-header" id="headingSix">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix" json-html="Question_6">
+                                        Question #6: How much do you trust the information on our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="trustW">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW1" json-html="great_deal">A great deal</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW2" json-html="A_lot">A lot</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW3" json-html="A_moderate_amount">A Moderate Amount</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW4" json-html="A_little">A little</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW5" json-html="">Not at all</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="trustW6" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="trustW6" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="questSix();" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 6 -->
+                    </div>
+                    <!-- Qu.6 -->
+
+                    <!-- Qu.7 -->
+                    <div id="recoWE" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_12" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <!-- go to next div -->
+                        <button type="button" class="btn_3 mt-2" style="float: right;" id="formButton_13" json-html="Next_Question">Next Question! <i class="fas fa-hand-point-right"></i></button>
+                        <!-- go to next div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 7 -->
+                        <div class="card">
+                            <div class="card-header" id="headingSeven">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven" json-html="Question_7">
+                                        Question #7: How likely is it that you would recommend our website to a friend?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="recommendW">
+                                        <div class="row mb-3">
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW1" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW1">1</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW2" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW2">2</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW3" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW3">3</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW4" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for=" recommendW4">4</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW5" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW5">5</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW6" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW6">6</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW7" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW7">7</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW8" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW8">8</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW9" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW9">9</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-sm">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW10" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW10">10</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-1">
+                                                <div class="custom-control custom-radio custom-control-inline">
+                                                    <input type="radio" id="recommendW11" name="customRadioInline1" class="custom-control-input">
+                                                    <label class="custom-control-label" for="recommendW11" json-html="Other">Other</label>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-11">
+                                                <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                            </div>
+                                        </div>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="alert('Click Next Question!');" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 7-->
+                    </div>
+                    <!-- Qu.7 -->
+
+                    <!-- Qu.8 -->
+                    <div id="commIN" style="display:none;">
+                        <!-- go to prev div -->
+                        <button type="button" class="btn_3 mt-2" style="float: left;" id="formButton_14" json-html="Previous_Question"><i class="fas fa-hand-point-left"></i> Previous Question!</button>
+                        <!-- go to prev div -->
+
+                        <br><br><br>
+
+                        <!-- Start Question 8 -->
+                        <div class="card">
+                            <div class="card-header" id="headingEight">
+                                <h2 class="mb-0">
+                                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight" json-html="Question_8">
+                                        Question #8: Do you have any other comments about how we can improve our website?
+                                    </button>
+                                </h2>
+                            </div>
+                            <div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+                                <div class="card-body">
+                                    <form method="post" name="commentI">
+                                        <input type="text" class="form-control w-100" json-attr="placeholder,Tell_us_want_ph" placeholder="Tell us what you want" required>
+                                        <button type="button" class="btn btn_3 m-2 float-right" onclick="alert('Click Next Question!');" >Submit</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- End Question 8 -->
+                    </div>
+                    <!-- Qu.8 -->
+                </div>
+            </div>
+        </section>
+        <!-- End Section Survay -->
+
+        <!-- Start Carousel/ Slideshow -->
+        <div id="mySlideshow" class="carousel slide text-center" data-ride="carousel" style="margin-top: 127px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="img/instagram/inst_1.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_2.jfif" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_3.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_4.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_5.png" alt="">
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#mySlideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#mySlideshow" data-slide-to="1"></li>
+                <li data-target="#mySlideshow" data-slide-to="2"></li>
+                <li data-target="#mySlideshow" data-slide-to="3"></li>
+                <li data-target="#mySlideshow" data-slide-to="4"></li>
+            </ol>
+        </div>
+        <!-- End Carousel -->
+
+        <!-- subscribe_area part start-->
+        <section class="instagram_photo">
+            <div class="container-fluid">
+                <div class=" row">
+                    <div class="col-lg-12">
+                        <div class="instagram_photo_iner">
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_1.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_2.jfif" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_3.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_4.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_5.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--::subscribe_area part end::-->
+
+        <!--::footer_part start::-->
+        <footer class="footer_part">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="category">Category</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="category.html" json-html="women">Women</a></li>
+                                <li><a href="category.html" json-html="children">Children</a></li>
+                                <li><a href="category.html" json-html="accessories">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="Company">Company</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="about.html" json-html="About">About</a></li>
+                                <li><a href="contact.html" json-html="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single_footer_part">
+                            <h4 json-html="address">Address</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" json-html="Farokia_Towers">5C, Farokia Towers, Nozha, Cairo</a></li>
+                                <li><a href="#">+2 010 9971 6655</a></li>
+                                <li><span>info@exabyte-eg.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="single_footer_part">
+                            <h4 json-html="Newsletter">Newsletter</h4>
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
+                                    <input type="email" name="email" id="newsletter-form-email" json-attr="placeholder,Email_ph" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                    <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm" json-html="subscribe">subscribe</button>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                            <div class="social_icon">
+                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a href="#"><i class="ti-twitter-alt"></i></a>
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 copyright" json-html="Lilac_Moda_copy_2020">
+                        Lilac Moda &copy; 2020
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--::footer_part end::-->
+    </div>
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            $("#formButton_1").click(function() {
+                $("#webNeds").hide();
+                $("#timeNeds").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_2").click(function() {
+                $("#timeNeds").hide();
+                $("#webNeds").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_3").click(function() {
+                $("#timeNeds").hide();
+                $("#takeTim").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_4").click(function() {
+                $("#takeTim").hide();
+                $("#timeNeds").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_5").click(function() {
+                $("#takeTim").hide();
+                $("#attWE").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_6").click(function() {
+                $("#attWE").hide();
+                $("#takeTim").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_7").click(function() {
+                $("#attWE").hide();
+                $("#uStandd").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_8").click(function() {
+                $("#uStandd").hide();
+                $("#attWE").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_9").click(function() {
+                $("#uStandd").hide();
+                $("#trusWE").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_10").click(function() {
+                $("#trusWE").hide();
+                $("#uStandd").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_11").click(function() {
+                $("#trusWE").hide();
+                $("#recoWE").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_12").click(function() {
+                $("#recoWE").hide();
+                $("#trusWE").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_13").click(function() {
+                $("#recoWE").hide();
+                $("#commIN").show();
+            });
+        });
+
+        $(document).ready(function() {
+            $("#formButton_14").click(function() {
+                $("#commIN").hide();
+                $("#recoWE").show();
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

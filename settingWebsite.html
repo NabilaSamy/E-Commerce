@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Setting for another websites</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/price_rangs.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body class="bg-white">
+
+    <section class="settingWeb">
+        <div class="p-sm-3">
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript: void(0);" tab-controller="#home" json-html="Home">Home Page</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#shop" json-html="Shop">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#client" json-html="Manage_Clients">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#single" json-html="Single_Product">Single Prod.</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#org" json-html="Organization_Details">Org. Details</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#store" json-html="Manage_Store">Store</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#adddBP" json-html="add_new">Add in DB</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Start deals with Home Page -->
+            <div id="home" class="" tab>
+                <form class="m-0 contact_form" id="home_show_hide" name="homePage" method="post">
+                    <h3 json-html="Show_Hide_in_Home">Show_Hide Sections in Home Page</h3>
+                    <hr><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_mainMenu" value="">
+                            <label class="form-check-label" json-html="home_Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_bannerPart" value="">
+                            <label class="form-check-label" json-html="Banner_Part">Banner Part</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_features" value="">
+                            <label class="form-check-label" json-html="Features">Features</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_bestOffer" value="">
+                            <label class="form-check-label" json-html="best_offers">Best Offer</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_shippingDetails" value="">
+                            <label class="form-check-label" json-html="Shipping_Details">Shipping Details</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="sthome_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeHomePage();" class="btn m-4 btn_3" json-html="Save_HomePage_Setting">Save Home Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Home Page -->
+
+            <!-- Start deals with Shop -->
+            <div id="shop" class="hidden" tab>
+                <form class="m-0 contact_form" id="shop_show_hide" name="shopPage" method="post">
+                    <h3 json-html="Show_Hide_in_Shop">Show_Hide Sections in Shop Page</h3>
+                    <hr><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_filtrBrand" value="">
+                            <label class="form-check-label" json-html="Filter_Brands">Filter for Brands</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_filtrCat" value="">
+                            <label class="form-check-label" json-html="Filter_Categories">Filter for Categories</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_filtrSize" value="">
+                            <label class="form-check-label" json-html="Filter_Size">Filter for Size</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_filtrPrice" value="">
+                            <label class="form-check-label" json-html="Filter_Price">Filter for Price</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stshop_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeShop();" class="btn m-4 btn_3" json-html="Save_ShopPage_Setting">Save Shop Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Shop -->
+
+            <!-- Start deals with Client Managemant Page -->
+            <div id="client" class="hidden" tab>
+                <form class="m-0 contact_form" id="client_show_hide" name="clientPage" method="post">
+                    <h3 json-html="Show_Hide_in_Client">Show_Hide Sections in Client Managemant Page</h3>
+                    <hr style="width:46%;"><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_filterClient" value="">
+                            <label class="form-check-label" json-html="Filter_Clients">Filter for Clients</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_filterOrders" value="">
+                            <label class="form-check-label" json-html="Filter_Orders">Filter for Orders</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_listOrder" value="">
+                            <label class="form-check-label" json-html="List_for_Orders">List for Orders</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_listReturnOrder" value="">
+                            <label class="form-check-label" json-html="List_for_Return_Orders">List for Return Orders</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_listClientWish" value="">
+                            <label class="form-check-label" json-html="List_for_Clients_Wishlists">List for Clients Wishlists</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_listClientEval" value="">
+                            <label class="form-check-label" json-html="List_for_Clients_Evaluations">List for Clients Evaluation</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stclient_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeClientMgmt();" class="btn m-4 btn_3" json-html="Save_ClientPage_Setting">Save Client Management Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Client Managemant Page -->
+
+            <!-- Start deals with Single Product Page -->
+            <div id="single" class="hidden" tab>
+                <form class="m-0 contact_form" id="singleP_show_hide" name="singlePage" method="post">
+                    <h3 json-html="Show_Hide_in_SingleProduct">Show_Hide Sections in Single Product Page</h3>
+                    <hr style="width: 41%;"><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_specification" value="">
+                            <label class="form-check-label" json-html="Specifications">Specifications Part</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_comment" value="">
+                            <label class="form-check-label" json-html="Comments">Comments Part</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_review" value="">
+                            <label class="form-check-label" json-html="Reviews">Reviews Part</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_bestSeller" value="">
+                            <label class="form-check-label" json-html="Best_Sellers">Best Seller</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="stsingle_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeSingleProd();" class="btn m-4 btn_3" json-html="Save_SingleProductPage_Setting">Save Single Product Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Single Product Page -->
+
+            <!-- Start deals with Organization Details Page -->
+            <div id="org" class="hidden" tab>
+                <form class="m-0 contact_form" id="orgP_show_hide" name="orgPage" method="post">
+                    <h3 json-html="Show_Hide_in_OrgDetails">Show_Hide Sections in Org. Details Page</h3>
+                    <hr style="width: 41%;"><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_addOrg" value="">
+                            <label class="form-check-label" json-html="Add_Organization_Details">Add Organization Details</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_addBank" value="">
+                            <label class="form-check-label" json-html="Add_Banking_Information">Add Org. Banking Information</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_addUser" value="">
+                            <label class="form-check-label" json-html="Add_Users_working_Organization">Add Users work in Org.</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="storg_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeOrgDetail();" class="btn m-4 btn_3" json-html="Save_OrgDetails_Page_Setting">Save Org. Details Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Organization Details Page -->
+
+            <!-- Start deals with Store Details Page -->
+            <div id="store" class="hidden" tab>
+                <form class="m-0 contact_form" id="storeP_show_hide" name="storePage" method="post">
+                    <h3 json-html="Show_Hide_in_StoreDetails">Show_Hide Sections in Store Details Page</h3>
+                    <hr style="width: 41%;"><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_addStore" value="">
+                            <label class="form-check-label" json-html="Add_Store_Details">Add Store Details</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_addUser" value="">
+                            <label class="form-check-label" json-html="Add_Users_working_Store">Add Users working in Store</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="ststore_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeStoreDetails();" class="btn m-4 btn_3" json-html="Save_StoreDetails_Page_Setting">Save Store Details Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with Store Details Page -->
+
+            <!-- Start deals with addNew Page -->
+            <div id="adddBP" class="hidden" tab>
+                <form class="m-0 contact_form" id="storeP_show_hide" name="storePage" method="post">
+                    <h3 json-html="Show_Hide_in_Add_DB">Show_Hide Sections in Add in DB Page</h3>
+                    <hr style="width: 37%;"><br><br>
+                    <div class="row">
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_mainMenu" value="">
+                            <label class="form-check-label" json-html="Main_Menu">Main Menu (Navbar)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_breadcrumb" value="">
+                            <label class="form-check-label" json-html="Breadcrumb">Breadcrumb</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_showBrands" value="">
+                            <label class="form-check-label" json-html="Show_All_Brands">Show All Brands from DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_showCats" value="">
+                            <label class="form-check-label" json-html="Show_All_Categories">Show All Categories from DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_showTags" value="">
+                            <label class="form-check-label" json-html="Show_All_Tags">Show All Tags from DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_addNBrand" value="">
+                            <label class="form-check-label" json-html="Add_New_Brand">Add New Brand to DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_addNCat" value="">
+                            <label class="form-check-label" json-html="Add_New_Category">Add New Category to DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_addNTag" value="">
+                            <label class="form-check-label" json-html="Add_New_Tag">Add New Tag to DB</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_slideShow" value="">
+                            <label class="form-check-label" json-html="Slide_Show">Slide Show (Carousel)</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_instaPhoto" value="">
+                            <label class="form-check-label" json-html="Instagram_Photo">Instagram Photo</label>
+                        </div>
+
+                        <div class="form-check chooceF col-sm-2">
+                            <input class="form-check-input" type="checkbox" id="staddn_footer" value="">
+                            <label class="form-check-label" json-html="Footer">Footer</label>
+                        </div>
+                    </div>
+
+                    <button type="submit" onclick="changeaddNewP();" class="btn m-4 btn_3" json-html="Save_AddinDB_Page_Setting">Save Add in DB Page Setting</button>
+                </form>
+            </div>
+            <!-- End deals with addNew Page -->
+        </div>
+    </section>
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/price_rangs.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>

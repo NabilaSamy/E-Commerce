@@ -1,0 +1,797 @@
+<!doctype html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lilac - Start Demo</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body class="bg-white" onload="$('#multipleProducts').hide();">
+    <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-11">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Navbar -->
+                        <a class="navbar-brand" href="index.html"><span>Lilac</span></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html" json-html="Home">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="category.html" json-html="Shop">Shop</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" json-html="pages">pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="login.html" json-html="Login">Login</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="tracking.html" json-html="Tracking">Tracking</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="checkout.html" json-html="Checkout">Checkout</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="cart.html" json-html="Cart">Shopping Cart</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="confirmation.html" json-html="Confirmation">Confirmation</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about.html" json-html="About">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html" json-html="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <form action="category.html" action="GET" class="d-flex justify-content-between search-inner">
+                            <input type="text" class="form-control" id="search_input" name="keyword" json-attr="placeholder,Search_Here_ph" placeholder="Search Here" required>
+                            <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+
+
+    <!--================signup_part Area =================-->
+    <div id="SIGNUP_dv">
+        <!-- go to next div -->
+        <button type="button" class="btn_3 mt-2" style="float: right;" id="divButton_1" json-html="Next_Step">Next Step! <i class="fas fa-hand-point-right"></i></button>
+        <!-- go to next div -->
+
+        <!-- :: signup form start :: -->
+        <div class="section_padding signup">
+            <div class="container">
+                <h3 class="mb-30" json-html="Signup">Signup</h3>
+                <form class="row contact_form" method="post" id="signup" name="form_signup">
+                    <div class="col-md-9">
+                        <div class="mt-10">
+                            <input type="text" name="first_name" id="first_name" json-attr="placeholder,First_Name_ph" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" class="single-input" required>
+                        </div>
+                        <div class="mt-10">
+                            <input type="text" name="last_name" id="last_name" json-attr="placeholder,Last_Name_ph" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" class="single-input" required>
+                        </div>
+                        <div class="mt-10">
+                            <input type="email" name="email_address" id="email_address" json-attr="placeholder,Email_ph" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="single-input" required>
+                        </div>
+                        <div class="mt-10">
+                            <input type="password" name="password" id="password" json-attr="placeholder,Password_ph" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" class="single-input" required>
+                        </div>
+                    </div>
+
+                    <div class="col-md-3">
+                        <span json-html="Select_photo:">Select new photo:</span>
+                        <input type="file" name="myFile" id="myFile" required>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-outline-light btn-block btn_signup" onclick="signUp();" json-html="Signup">Signup</button>
+                </form>
+            </div>
+        </div>
+        <!-- :: signup form end :: -->
+    </div>
+    <!--================signup_part end =================-->
+
+
+    <!-- Start Org. Data -->
+    <div id="orgDet" style="display:none;">
+        <!-- go to prev div -->
+        <button type="button" class="btn_3 mt-2" style="float: left;" id="divButton_2" json-html="Previous_Step"><i class="fas fa-hand-point-left"></i> Previous Step!</button>
+        <!-- go to prev div -->
+
+        <!-- go to next div -->
+        <button type="button" class="btn_3 mt-2" style="float: right;" id="divButton_3" json-html="Next_Step">Next Step! <i class="fas fa-hand-point-right"></i></button>
+        <!-- go to next div -->
+
+        <!-- org. data -->
+        <section class="org_detail section_padding">
+            <div class="container">
+                <h3 class="mb-30" json-html="Add_Organization_Details">Add Organization Details</h3>
+
+                <form class="contact_form" method="post" name="orgDetail">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="mt-10">
+                                <input type="text" id="en_name" name="en_name" json-attr="placeholder,English_Organization_Name_ph" placeholder="English Organization Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'English Organization Name'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="text" id="ar_name" name="ar_name" json-attr="placeholder,Arabic_Organization_Name_ph" placeholder="Arabic Organization Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Arabic Organization Name'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="text" id="org_address_1" name="org_address_1" json-attr="placeholder,Organization_Address_1_ph" placeholder="Organization Address 1" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Store Address'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="text" id="org_address_2" name="org_address_2" json-attr="placeholder,Organization_Address_2_ph" placeholder="Organization Address 2" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Store Address'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="email" id="email" name="email" json-attr="placeholder,Organization_Email_ph" placeholder="Organization Email" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Organization Email'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="number" id="telephone" name="telephone" json-attr="placeholder,Organization_Phone_ph" placeholder="Organization Phone" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Organization Phone'" class="single-input" required>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <span style="position: relative; top:10px;" json-html="Select_photo:">Select new photo: <input type="file" name="myFile" id="myFile" required></span>
+                        </div>
+                        <button class="btn btn-outline-light btn-block btn_save_org" onclick="saveOrg();" json-html="Save">Save</button>
+                    </div>
+                </form>
+
+            </div>
+        </section>
+    </div>
+    <!-- End Org. Data -->
+
+
+    <!-- Start add user data -->
+    <div id="addUSERData" style="display:none;">
+        <!-- go to prev div -->
+        <button type="button" class="btn_3 mt-2" style="float: left;" id="divButton_4" json-html="Previous_Step"><i class="fas fa-hand-point-left"></i> Previous Step!</button>
+        <!-- go to prev div -->
+
+        <!-- go to next div -->
+        <button type="button" class="btn_3 mt-2" style="float: right;" id="divButton_5" json-html="Next_Step">Next Step! <i class="fas fa-hand-point-right"></i></button>
+        <!-- go to next div -->
+
+        <!-- :: Add User Data :: -->
+        <div class="section_padding profile">
+            <div class="container">
+                <h3 class="mb-30" json-html="Add_your_Data">Add your Data</h3>
+                <form class="contact_form" method="post" name="profile">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="mt-10">
+                                <input type="text" id="first_name" name="first_name" json-attr="placeholder,First_Name_ph" placeholder="First Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'First Name'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="text" id="middle_name" name="middle_name" json-attr="placeholder,Middle_Name_ph" placeholder="Middle Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Middle Name'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="text" id="last_name" name="last_name" json-attr="placeholder,Last_Name_ph" placeholder="Last Name" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Last Name'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="email" id="email_address" name="email_address" json-attr="placeholder,Email_ph" placeholder="Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Email address'" class="single-input" required>
+                            </div>
+                            <div class="mt-10">
+                                <input type="password" id="password" name="password" json-attr="placeholder,Password_ph" placeholder="Password" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Password'" class="single-input" required>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <span json-html="Select_photo:">Select new photo:</span>
+                            <input type="file" name="myFile" id="myFile" required>
+                        </div>
+                    </div>
+                    <button class="btn btn-outline-light btn-block btn_profile" onclick="saveProfile();" json-html="Save">Save</button>
+                </form>
+            </div>
+        </div>
+        <!-- :: Add User Data :: -->
+    </div>
+    <!-- End add user data -->
+
+
+    <!-- Start add new in DB -->
+    <div id="ADDinDB" style="display:none;">
+        <!-- go to prev div -->
+        <button type="button" class="btn_3 mt-2" style="float: left;" id="divButton_6" json-html="Previous_Step"><i class="fas fa-hand-point-left"></i> Previous Step!</button>
+        <!-- go to prev div -->
+
+        <!-- go to next div -->
+        <button type="button" class="btn_3 mt-2" style="float: right;" id="divButton_7" json-html="Next_Step">Next Step! <i class="fas fa-hand-point-right"></i></button>
+        <!-- go to next div -->
+
+        <br><br><br>
+
+        <!-- Start add in database -->
+        <section class="addDB">
+            <div class="p-sm-3">
+                <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="javascript: void(0);" tab-controller="#brands" json-html="brands">Brands</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" tab-controller="#cats" json-html="categories">Categories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" tab-controller="#tags" json-html="tags">Tags</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="javascript: void(0);" tab-controller="#stockOption" json-html="Stock_Options">Stock Options</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!-- Start deals with Brands -->
+                <div id="brands" class="" tab>
+                    <form class="row m-0 contact_form" id="brandsForm" name="brand_Brand">
+                        <button type="button" class="btn btn_3" onclick="addNewBrand();" json-html="add_new">Add New</button>
+                        <table class="table w-100 table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" json-html="Brand_English_Name">Brand English Name</th>
+                                    <th class="text-center" json-html="Brand_Arabic_Name">Brand Arabic Name</th>
+                                </tr>
+                            </thead>
+                            <tbody id='outputBrands'></tbody>
+                        </table>
+                        <button type="submit" class="btn w-100 m-4 btn_3" onclick="alert('Brands Seved!');" json-html="Save_Brands">Save Brands</button>
+                    </form>
+                </div>
+                <!-- End deals with Brands -->
+
+                <!-- Start deals with Categories -->
+                <div id="cats" class="hidden" tab>
+                    <!--<form class="row m-0 contact_form" id="categoriesForm" method="post">
+                        <button type="button" class="btn btn_3" onclick="addNewCategory();" json-html="add_new">Add New</button>
+                        <table class="table w-100 table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" json-html="Cat_English_Name">Cat. English Name</th>
+                                    <th class="text-center" json-html="Cat_Arabic_Name">Cat. Arabic Name</th>
+                                    <th class="text-center" json-html="Category_URL">Category URL</th>
+                                    <th class="text-center" json-html="Parent_Category">Parent Category</th>
+                                    <th class="text-center" json-html="Category_Image">Category Image</th>
+                                    <th class="text-center"></th>
+                                    <th class="text-center"></th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <div id="cat_display"></div>
+                    </form>-->
+
+                    <div class="card p-0 bg-light">
+                        <div class="card-header row m-0">
+                            <h2 class="m-0">Categories</h2>
+                            <div class="col"></div>
+                            <button class="cat-add btn btn-primary">Add New</button>
+                        </div>
+                        <div class="card-body p-2" id="cats">
+                            <div class="new"></div>
+                            <div class="api"></div>
+                        </div>
+                    </div>
+
+                </div>
+                <!-- End deals with Categories -->
+
+                <!-- Start deals with Tags -->
+                <div id="tags" class="hidden" tab>
+                    <form class="row m-0 contact_form" id="tagsForm" method="post">
+                        <button type="button" class="btn btn_3" onclick="addNewTag();" json-html="add_new">Add New</button>
+                        <table class="table w-100 table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" json-html="Tag_English_Name">Tag English Name</th>
+                                    <th class="text-center" json-html="Tag_Arabic_Name">Tag Arabic Name</th>
+                                </tr>
+                            </thead>
+                            <tbody id='outputTags'></tbody>
+                        </table>
+                        <button type="submit" class="btn w-100 m-4 btn_3" onclick="alert('Tags Seved!');" json-html="Save_Tag">Save Tags</button>
+                    </form>
+                </div>
+                <!-- End deals with Tags -->
+
+                <!-- Start deals with Stock Options -->
+                <div id="stockOption" class="hidden" tab>
+                    <form class="row m-0 contact_form" id="optionsForm" method="post">
+                        <button type="button" class="btn btn_3" onclick="addNewStOption();" json-html="add_new">Add New</button>
+                        <table class="table w-100 table-striped">
+                            <thead>
+                                <tr>
+                                    <th class="text-center" json-html="Options_English_Name">Options English Name</th>
+                                    <th class="text-center" json-html="Options_Arabic_Name">Options Arabic Name</th>
+                                    <th class="text-center" json-html="Value_English_Name">Value English Name</th>
+                                    <th class="text-center" json-html="Value_Arabic_Name">Value Arabic Name</th>
+                                </tr>
+                            </thead>
+                            <tbody id='outputStOptions'></tbody>
+                        </table>
+                        <button type="submit" class="btn w-100 m-4 btn_3" onclick="alert('Options Seved!');" json-html="Save_Stock_Options">Save Stock Options</button>
+                    </form>
+                </div>
+                <!-- End deals with Stock Options -->
+            </div>
+        </section>
+        <!-- End add in database -->
+    </div>
+    <!-- End add new in DB -->
+
+
+    <!-- Start add new Stock -->
+    <div id="ADDSTOCK" style="display:none;">
+        <!-- go to prev div -->
+        <button type="button" class="btn_3 mt-2" style="float: left;" id="divButton_8" json-html="Previous_Step"><i class="fas fa-hand-point-left"></i> Previous Step!</button>
+        <!-- go to prev div -->
+
+        <br>
+
+        <!-- Start Section Add New Stock -->
+        <section class="container pt-5">
+            <h1 class="pb-3">Add Product</h1>
+            <form name="addProductForm" id="producForm">
+                <table id="addProdu" style="width: 100%;">
+                    <div class="form-group card pb-2">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label class="px-2 pt-2">English Name: </label>
+                                <input type="text" class="form-control" placeholder="Product English Name" id="name_en" name="name_en" required>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label class="px-2 pt-2">Arabic Name: </label>
+                                <input type="text" class="form-control" placeholder="Product Arabic Name" id="name_ar" name="name_ar" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <h4 class="px-2 pt-2">Select Brand, Category:</h4>
+                        <div class="row m-0">
+                            <div class="form-group col-sm-6 pr-1">
+                                <label>Brand: </label>
+                                <select class="form-control" id="brand_id" name="brand_id" appendBrandOptions required></select>
+                            </div>
+
+                            <div class="form-group col-sm-6 pl-1">
+                                <label>Category: </label>
+                                <select class="form-control" id="category_id" name="category_id" appendCatOptions required></select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <h4 class="px-2 pt-2">Write and Select Tags:</h4>
+                        <div class="row form-group px-1">
+                            <div class="col-sm-6">
+                                <label>Tags: </label>
+                                <div class="tags">
+                                    <select class="form-control" id="tag_id" name="tag_id" appendTagOptions required></select>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <label>English Tags:</label>
+                                <input type="text" class="form-control" placeholder="English Tags" id="label_en" name="label_en" required>
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Arabic Tags:</label>
+                                <input type="text" class="form-control" placeholder="Arabic Tags" id="label_ar" name="label_ar" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row m-0">
+                        <button class="btn btn_1 p-5" onclick="$('#singleProduct').show();$(this).parent().hide();">Add Single Product</button>
+
+                        <button class="btn btn_1 p-5" onclick="$('#singleProduct').hide();$('#multipleProducts').show();$(this).parent().hide();">Add Product Variant</button>
+                    </div>
+
+                    <div class="w100 card px-2 pt-1" id="singleProduct" style="display: none;">
+                        <h4 class="pt-2">Single Product Details:</h4>
+                        <hr style="margin-top: 1px; width: 18%; height: 1.5px; background-color:black;">
+                        <h4>Product Options:</h4>
+                        <div class="details">
+                            <div class="detail row">
+                                <div class="form-group col-sm-6">
+                                    <label>English Option: </label>
+                                    <input type="text" class="form-control" placeholder="English Option" id="title_en" name="title_en" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label>English Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="English Option Value" id="name_en" name="name_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Arabic Option: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option" id="title_ar" name="title_ar" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label>Arabic Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option Value" id="name_ar" name="name_ar" required>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Shop Keeping Unit: </label>
+                                    <input type="text" class="form-control" placeholder="Product SKU" id="sku" name="sku" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Quantity in Stock: </label>
+                                    <input type="number" checkValue="int" class="form-control" placeholder="Product Quantity" min="0" max="99" id="stock" name="stock" onkeypress="return onlyNumberKey(event)" required>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Price: </label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" placeholder="Product Price" id="unit_price" name="unit_price" onkeypress="return onlyNumberKey(event)" required>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">EGP</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Discount: </label>
+                                    <div class="input-group">
+                                        <input type="number" checkValue="int" class="form-control" placeholder="Product Discount" min="0" max="99" onkeypress="return onlyNumberKey(event)" id="discount" name="discount" required>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Discription: </label>
+                                    <input type="text" class="form-control" placeholder="Small English Description" id="overview_en" name="overview_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Arabic Description: </label>
+                                    <input type="text" class="form-control" placeholder="Small Arabic Description" id="overview_ar" name="overview_ar" required>
+                                </div>
+                            </div>
+
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Full English Discription: </label>
+                                    <textarea class="form-control" placeholder="Full English Description" rows="5" cols="30" maxlength="500" id="description_en" name="description_en" required></textarea>
+                                    <div class="stopWarning"></div>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Full Arabic Discription: </label>
+                                    <textarea class="form-control" placeholder="Full Arabic Description" rows="5" cols="30" maxlength="500" id="description_ar" name="description_ar" required></textarea>
+                                    <div class="stopWarning"></div>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Main Image(in Low Resolution): </label>
+                                    <input type="file" class="form-control-file" accept="image/jpeg,image/png,image/jpg" id="thumbnail" name="thumbnail" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Other Images(in High Resolution): </label>
+                                    <input type="file" class="form-control-file" multiple accept="image/jpeg,image/png,image/jpg" id="stock_detail_images" name="stock_detail_images" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w100 card px-2 pt-1" id="multipleProducts">
+                        <h4 class="pt-2">Multiple Product Details:</h4>
+                        <hr style="margin-top: 1px; width: 18%; height: 1.5px; background-color:black;">
+                        <h4>Product Options:</h4>
+                        <div class="details">
+                            <div class="detail row m-0">
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Option: </label>
+                                    <input type="text" class="form-control" placeholder="English Option" id="title_en" name="title_en" required>
+                                </div>
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="English Option Value" id="name_en" name="name_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Arabic Option: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option" id="title_ar" name="title_ar" required>
+                                </div>
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Arabic Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option Value" id="name_ar" name="name_ar" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">English Name: </label>
+                                <input type="text" class="form-control" placeholder="English Name" id="name_en" name="name_en" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Arabic Name: </label>
+                                <input type="text" class="form-control" placeholder="Arabic Name" id="name_ar" name="name_ar" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">English Description: </label>
+                                <input type="text" class="form-control" placeholder="Small English Description" id="overview_en" name="overview_en" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Arabic Description: </label>
+                                <input type="text" class="form-control" placeholder="Small Arabic Description" id="overview_ar" name="overview_ar" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Price: </label>
+                                <input type="number" class="form-control" placeholder="Product Price" id="unit_price" name="unit_price" onkeypress="return onlyNumberKey(event)" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Discount: </label>
+                                <input type="number" class="form-control" placeholder="Product Discount" id="discount" name="discount" onkeypress="return onlyNumberKey(event)" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Shop Keeping Unit: </label>
+                                <input type="text" class="form-control" placeholder="Product SKU" id="sku" name="sku" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Quantity in Stock: </label>
+                                <input type="text" class="form-control" placeholder="Product Quantity" id="stock" name="sku" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Main Image: </label>
+                                <input type="file" class="form-control-file" accept="image/jpeg,image/png,image/jpg" id="thumbnail" name="thumbnail" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Extra Image: </label>
+                                <input type="file" class="form-control-file" multiple accept="image/jpeg,image/png,image/jpg" id="stock_detail_images" name="stock_detail_images" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn_1 p-5" onclick="saveProdc();">Save Product</button>
+                </table>
+            </form>
+            <button class="btn btn_1 p-5" onclick="addNewProd();">Add New Product</button>
+        </section>
+        <!-- End Section Add New Stock -->
+    </div>
+    <!-- Start add new Stock -->
+
+
+
+    <!-- Start Carousel/ Slideshow -->
+    <div id="mySlideshow" class="carousel slide text-center" data-ride="carousel" style="margin-top: 127px;">
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="10000">
+                <img src="img/instagram/inst_1.png" alt="">
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <img src="img/instagram/inst_2.jfif" alt="">
+            </div>
+
+            <div class="carousel-item" data-interval="10000">
+                <img src="img/instagram/inst_3.png" alt="">
+            </div>
+
+            <div class="carousel-item" data-interval="2000">
+                <img src="img/instagram/inst_4.png" alt="">
+            </div>
+
+            <div class="carousel-item" data-interval="10000">
+                <img src="img/instagram/inst_5.png" alt="">
+            </div>
+        </div>
+
+        <ol class="carousel-indicators">
+            <li data-target="#mySlideshow" data-slide-to="0" class="active"></li>
+            <li data-target="#mySlideshow" data-slide-to="1"></li>
+            <li data-target="#mySlideshow" data-slide-to="2"></li>
+            <li data-target="#mySlideshow" data-slide-to="3"></li>
+            <li data-target="#mySlideshow" data-slide-to="4"></li>
+        </ol>
+    </div>
+    <!-- End Carousel -->
+
+    <!--::footer_part start::-->
+    <footer class="footer_part">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_footer_part">
+                        <h4 json-html="category">Category</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="category.html" json-html="women">Women</a></li>
+                            <li><a href="category.html" json-html="children">Children</a></li>
+                            <li><a href="category.html" json-html="accessories">Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-2">
+                    <div class="single_footer_part">
+                        <h4 json-html="Company">Company</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="about.html" json-html="About">About</a></li>
+                            <li><a href="contact.html" json-html="Contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="single_footer_part">
+                        <h4 json-html="address">Address</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#" json-html="Farokia_Towers">5C, Farokia Towers, Nozha, Cairo</a></li>
+                            <li><a href="#">+2 010 9971 6655</a></li>
+                            <li><span>info@exabyte-eg.com</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="single_footer_part">
+                        <h4 json-html="Newsletter">Newsletter</h4>
+                        <div id="mc_embed_signup">
+                            <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
+                                <input type="email" name="email" id="newsletter-form-email" json-attr="placeholder,Email_ph" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm" json-html="subscribe">subscribe</button>
+                                <div class="mt-10 info"></div>
+                            </form>
+                        </div>
+                        <div class="social_icon">
+                            <a href="#"><i class="ti-facebook"></i></a>
+                            <a href="#"><i class="ti-twitter-alt"></i></a>
+                            <a href="#"><i class="ti-instagram"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 copyright" json-html="Lilac_Moda_copy_2020">
+                    Lilac Moda &copy; 2020
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--::footer_part end::-->
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--<script src="js/jquery.nice-select.min.js"></script>-->
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom_startWizard.js"></script>
+
+    <script>
+        /* show next div */
+        $(document).ready(function() {
+            $("#divButton_1").click(function() {
+                $("#SIGNUP_dv").hide();
+                $("#orgDet").show();
+            });
+        });
+
+        /* show prev. div */
+        $(document).ready(function() {
+            $("#divButton_2").click(function() {
+                $("#orgDet").hide();
+                $("#SIGNUP_dv").show();
+            });
+        });
+
+        /* show next div */
+        $(document).ready(function() {
+            $("#divButton_3").click(function() {
+                $("#orgDet").hide();
+                $("#addUSERData").show();
+            });
+        });
+
+        /* show prev. div */
+        $(document).ready(function() {
+            $("#divButton_4").click(function() {
+                $("#addUSERData").hide();
+                $("#orgDet").show();
+            });
+        });
+
+        /* show next div */
+        $(document).ready(function() {
+            $("#divButton_5").click(function() {
+                $("#addUSERData").hide();
+                $("#ADDinDB").show();
+            });
+        });
+
+        /* show prev. div */
+        $(document).ready(function() {
+            $("#divButton_6").click(function() {
+                $("#ADDinDB").hide();
+                $("#addUSERData").show();
+            });
+        });
+
+        /* show next div */
+        $(document).ready(function() {
+            $("#divButton_7").click(function() {
+                $("#ADDinDB").hide();
+                $("#ADDSTOCK").show();
+            });
+        });
+
+        /* show prev. div */
+        $(document).ready(function() {
+            $("#divButton_8").click(function() {
+                $("#ADDSTOCK").hide();
+                $("#ADDinDB").show();
+            });
+        });
+
+    </script>
+</body>
+
+</html>

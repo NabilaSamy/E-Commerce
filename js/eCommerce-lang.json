@@ -1,0 +1,1905 @@
+﻿{
+    "lang": {
+        "ar": "ar",
+        "ar-text": "عربي",
+        "en": "en",
+        "en-text": "english"
+    },
+    "dir": {
+        "ar": "rtl",
+        "en": "ltr"
+    },
+    "Home": {
+        "en": "Home",
+        "ar": "الصفحه الرئيسيه"
+    },
+    "Single_Product": {
+        "en": "Single Product",
+        "ar": "منتج فردى"
+    },
+    "Shop": {
+        "en": "Shop",
+        "ar": "تسوق"
+    },
+    "now": {
+        "en": "now",
+        "ar": "الآن"
+    },
+    "search": {
+        "en": "search",
+        "ar": "ابحث"
+    },
+    "Account": {
+        "en": "Account",
+        "ar": "الحساب الشخصي"
+    },
+    "Logout": {
+        "en": "Logout",
+        "ar": "تسجيل الخروج"
+    },
+    "About": {
+        "en": "About",
+        "ar": "من نحن"
+    },
+    "Features": {
+        "en": "Features",
+        "ar": "الميزات"
+    },
+    "Contact": {
+        "en": "Contact",
+        "ar": "اتصل بنا"
+    },
+    "Login": {
+        "en": "Login",
+        "ar": "تسجيل الدخول"
+    },
+    "Tracking": {
+        "en": "Tracking",
+        "ar": "صفحة تتبع المنتج"
+    },
+    "Checkout": {
+        "en": "Checkout",
+        "ar": "طريقة الدفع"
+    },
+    "Cart": {
+        "en": "Cart",
+        "ar": "سلة المشتريات"
+    },
+    "Confirmation": {
+        "en": "Confirmation",
+        "ar": "تأكيد عملية الشراء"
+    },
+    "Signup": {
+        "en": "Signup",
+        "ar": "انشاء حساب"
+    },
+    "Submit": {
+        "en": "Submit",
+        "ar": "إرسال"
+    },
+    "Click": {
+        "en": "Click",
+        "ar": "اضغط"
+    },
+    "Edit": {
+        "en": "Edit",
+        "ar": "تعديل"
+    },
+    "First_Name": {
+        "en": "First Name",
+        "ar": "الإسم الأول"
+    },
+    "Middle_Name": {
+        "en": "Middle Name",
+        "ar": "الإسم الاوسط"
+    },
+    "Last_Name": {
+        "en": "Last Name",
+        "ar": "اسم العائلة"
+    },
+    "Email": {
+        "en": "Email",
+        "ar": "البريد الالكتروني"
+    },
+    "Telephone": {
+        "en": "Telephone",
+        "ar": "رقم التليفون"
+    },
+    "Type": {
+        "en": "Type",
+        "ar": "السمة"
+    },
+    "Status": {
+        "en": "Status",
+        "ar": "الحالة"
+    },
+    "Password": {
+        "en": "Password",
+        "ar": "كلمة السر"
+    },
+    "Photo": {
+        "en": "Photo",
+        "ar": "صورة شخصبة"
+    },
+    "Username": {
+        "en": "Username",
+        "ar": "اسم المستخدم"
+    },
+    "Cancel": {
+        "en": "Cancel",
+        "ar": "إلغاء"
+    },
+    "cancel": {
+        "en": "cancel",
+        "ar": "إلغاء"
+    },
+    "you": {
+        "en": "you",
+        "ar": "انت"
+    },
+    "Description": {
+        "en": "Description",
+        "ar": "الوصف"
+    },
+    "Specifications": {
+        "en": "Specifications",
+        "ar": "المواصفات"
+    },
+    "Comments": {
+        "en": "Comments",
+        "ar": "التعليقات"
+    },
+    "Reviews": {
+        "en": "Reviews",
+        "ar": "التقييم"
+    },
+    "Enter": {
+        "en": "Enter",
+        "ar": "اضغط"
+    },
+    "page": {
+        "en": "page",
+        "ar": "صفحة"
+    },
+    "pages": {
+        "en": "pages",
+        "ar": "صفحات"
+    },
+    "Write": {
+        "en": "Write",
+        "ar": "اكتب"
+    },
+    "Here": {
+        "en": "Here",
+        "ar": "هنا"
+    },
+    "check": {
+        "en": "check",
+        "ar": "افحص"
+    },
+    "mail": {
+        "en": "mail",
+        "ar": "بريد الكترونى"
+    },
+    "send": {
+        "en": "Send",
+        "ar": "ارسل"
+    },
+    "Remember_me": {
+        "en": "Remember me",
+        "ar": "ذكرني"
+    },
+    "Forgot": {
+        "en": "Forgot",
+        "ar": "نسيت"
+    },
+    "reset password": {
+        "en": "reset password",
+        "ar": "اعادة كتابه كلمة المرور"
+    },
+    "profile": {
+        "en": "Profile",
+        "ar": "الملف الشخصي"
+    },
+    "mobile-phone": {
+        "en": "mobile-phone",
+        "ar": "الهاتف المحمول"
+    },
+    "assign": {
+        "en": "assign",
+        "ar": "تسند"
+    },
+    "name": {
+        "en": "name",
+        "ar": "اسم"
+    },
+    "Product": {
+        "en": "Product",
+        "ar": "منتج"
+    },
+    "Products": {
+        "en": "Products",
+        "ar": "منتجات"
+    },
+    "category": {
+        "en": "Category",
+        "ar": "فئة"
+    },
+    "categories": {
+        "en": "Categories",
+        "ar": "فئات"
+    },
+    "brand": {
+        "en": "Brand",
+        "ar": "ماركة"
+    },
+    "brands": {
+        "en": "Brands",
+        "ar": "ماركات"
+    },
+    "tag": {
+        "en": "tag",
+        "ar": "تيكت"
+    },
+    "tags": {
+        "en": "tags",
+        "ar": "tags"
+    },
+    "Stock_Options": {
+        "en": "Stock Options",
+        "ar": "اضافة بيانات اخرى للمنتج"
+    },
+    "price": {
+        "en": "Price",
+        "ar": "سعر"
+    },
+    "rating": {
+        "en": "rating",
+        "ar": "تقييم"
+    },
+    "discount": {
+        "en": "discount",
+        "ar": "خصومات"
+    },
+    "sale": {
+        "en": "sale",
+        "ar": "اوكازيون"
+    },
+    "accessories": {
+        "en": "accessories",
+        "ar": "اكسسوارات"
+    },
+    "women": {
+        "en": "women",
+        "ar": "نساء"
+    },
+    "children": {
+        "en": "children",
+        "ar": "اطفال"
+    },
+    "kids": {
+        "en": "kids",
+        "ar": "اطفال"
+    },
+    "size": {
+        "en": "size",
+        "ar": "المقاس"
+    },
+    "Tops": {
+        "en": "Tops",
+        "ar": "توب"
+    },
+    ",": {
+        "en": ",",
+        "ar": "و"
+    },
+    "&": {
+        "en": "&",
+        "ar": "و"
+    },
+    "T-Shirts": {
+        "en": "T-Shirts",
+        "ar": "تيشرتات"
+    },
+    "Dress": {
+        "en": "Dress",
+        "ar": "فستان"
+    },
+    "Dresses": {
+        "en": "Dresses",
+        "ar": "فساتين"
+    },
+    "Swimsuits": {
+        "en": "Swimsuits",
+        "ar": "مايوهات"
+    },
+    "Cover Ups": {
+        "en": "Cover Ups",
+        "ar": "كاش مايوه"
+    },
+    "Lingerie": {
+        "en": "Lingerie",
+        "ar": "اللانجري"
+    },
+    "Sleepwear": {
+        "en": "Sleepwear",
+        "ar": "ملابس النوم"
+    },
+    "Lounge": {
+        "en": "Lounge",
+        "ar": "بيجامات"
+    },
+    "Hoodies": {
+        "en": "Hoodies",
+        "ar": "هوديز"
+    },
+    "Sweatshirts": {
+        "en": "Sweatshirts",
+        "ar": "سويت شيرتات"
+    },
+    "Socks": {
+        "en": "Socks",
+        "ar": "شرابات"
+    },
+    "Jumpsuits": {
+        "en": "Jumpsuits",
+        "ar": "سالوبيتات"
+    },
+    "Coats": {
+        "en": "Coats",
+        "ar": "بلاطي"
+    },
+    "Jackets": {
+        "en": "Jackets",
+        "ar": "جواكيت"
+    },
+    "Vests": {
+        "en": "Vests",
+        "ar": "فيست"
+    },
+    "Pants": {
+        "en": "Pants",
+        "ar": "بنطلونات"
+    },
+    "Cardigans": {
+        "en": "Cardigans",
+        "ar": "كارديجان"
+    },
+    "Pullovers": {
+        "en": "Pullovers",
+        "ar": "بلوفرات"
+    },
+    "Skirts": {
+        "en": "Skirts",
+        "ar": "جيبات"
+    },
+    "Sports Wear": {
+        "en": "Sports Wear",
+        "ar": "ملابس رياضية"
+    },
+    "Suits": {
+        "en": "Suits",
+        "ar": "بدل"
+    },
+    "Blazers": {
+        "en": "Blazers",
+        "ar": "بليزات"
+    },
+    "Jeans": {
+        "en": "Jeans",
+        "ar": "جينز"
+    },
+    "Shorts": {
+        "en": "Shorts",
+        "ar": "شورتات"
+    },
+    "Leggings": {
+        "en": "Leggings",
+        "ar": "بنطلونات ضيقة"
+    },
+    "Kimonos": {
+        "en": "Kimonos",
+        "ar": "كيمونو"
+    },
+    "Capes": {
+        "en": "Capes",
+        "ar": "كاب رداء"
+    },
+    "Browse": {
+        "en": "Browse",
+        "ar": "تصفح"
+    },
+    "shose": {
+        "en": "shose",
+        "ar": "حذاء"
+    },
+    "shoses": {
+        "en": "shoses",
+        "ar": "احذيه"
+    },
+    "subscribe": {
+        "en": "subscribe",
+        "ar": "اشترك"
+    },
+    "address": {
+        "en": "address",
+        "ar": "عنوان"
+    },
+    "egypt": {
+        "en": "egypt",
+        "ar": "مصر"
+    },
+    "City": {
+        "en": "City",
+        "ar": "مدينة"
+    },
+    "Alexandria": {
+        "en": "Alexandria",
+        "ar": "الإسكندرية"
+    },
+    "Aswan": {
+        "en": "Aswan",
+        "ar": "أسوان"
+    },
+    "Asyut": {
+        "en": "Asyut",
+        "ar": "أسيوط"
+    },
+    "Beheira": {
+        "en": "Beheira",
+        "ar": "البحيرة"
+    },
+    "Beni_Suef": {
+        "en": "Beni Suef",
+        "ar": "بنى سويف"
+    },
+    "Cairo": {
+        "en": "Cairo",
+        "ar": "القاهرة"
+    },
+    "Dakahlia": {
+        "en": "Dakahlia",
+        "ar": "الدقهلية"
+    },
+    "Damietta": {
+        "en": "Damietta",
+        "ar": "دمياط"
+    },
+    "Faiyum": {
+        "en": "Faiyum",
+        "ar": "الفيوم"
+    },
+    "Gharbia": {
+        "en": "Gharbia",
+        "ar": "الغربية"
+    },
+    "Giza": {
+        "en": "Giza",
+        "ar": "الجيزة"
+    },
+    "Ismailia": {
+        "en": "Ismailia",
+        "ar": "الإسماعيلية"
+    },
+    "Kafr_El_Sheikh": {
+        "en": "Kafr El Sheikh",
+        "ar": "كفر الشيخ"
+    },
+    "Luxor": {
+        "en": "Luxor",
+        "ar": "الأقصر"
+    },
+    "Marsa_Matruh": {
+        "en": "Marsa Matruh",
+        "ar": "مرسى مطروح"
+    },
+    "Minya": {
+        "en": "Minya",
+        "ar": "المنيا"
+    },
+    "Monufia": {
+        "en": "Monufia",
+        "ar": "المنوفية"
+    },
+    "New_Valley": {
+        "en": "New Valley (El-Wadi El-Gadid)",
+        "ar": "الوادى الجديد"
+    },
+    "North_Sinai": {
+        "en": "North Sinai",
+        "ar": "شمال سيناء"
+    },
+    "Port_Said": {
+        "en": "Port Said",
+        "ar": "بورسعيد"
+    },
+    "Qalyubia": {
+        "en": "Qalyubia",
+        "ar": "القليوبية"
+    },
+    "Qena": {
+        "en": "Qena",
+        "ar": "قنا"
+    },
+    "Red_Sea": {
+        "en": "Red Sea",
+        "ar": "البحر الأحمر"
+    },
+    "Sharqia": {
+        "en": "Sharqia",
+        "ar": "الشرقية"
+    },
+    "Sohag": {
+        "en": "Sohag",
+        "ar": "سوهاج"
+    },
+    "South_Sinai": {
+        "en": "South Sinai",
+        "ar": "جنوب سيناء"
+    },
+    "Suez": {
+        "en": "Suez",
+        "ar": "السويس"
+    },
+    "select": {
+        "en": "select",
+        "ar": "اختار"
+    },
+    "all": {
+        "en": "all",
+        "ar": "الكل"
+    },
+    "customers": {
+        "en": "customers",
+        "ar": "عملاء"
+    },
+    "active": {
+        "en": "active",
+        "ar": "النشطاء"
+    },
+    "Orders": {
+        "en": "Orders",
+        "ar": "طلبات"
+    },
+    "Return": {
+        "en": "Return",
+        "ar": "عائد"
+    },
+    "Online": {
+        "en": "Online",
+        "ar": "على النت"
+    },
+    "Store": {
+        "en": "Store",
+        "ar": "متجر"
+    },
+    "female": {
+        "en": "female",
+        "ar": "نساء"
+    },
+    "woman": {
+        "en": "woman",
+        "ar": "امرأة"
+    },
+    "child": {
+        "en": "child",
+        "ar": "طفل"
+    },
+    "Abayes": {
+        "en": "Abayes",
+        "ar": "عبايات"
+    },
+    "Casual_Abayas": {
+        "en": "Casual Abayas",
+        "ar": "عبايات كاجوال"
+    },
+    "party_Abayas": {
+        "en": "party Abayas",
+        "ar": "عبايات سواريه"
+    },
+    "Reception_Abayas": {
+        "en": "Reception Abayas",
+        "ar": "عبايات استقبال"
+    },
+    "girls": {
+        "en": "girls",
+        "ar": "بناتى"
+    },
+    "boys": {
+        "en": "boys",
+        "ar": "اولادى"
+    },
+    "pijama": {
+        "en": "pijama",
+        "ar": "بيجامة"
+    },
+    "jeep": {
+        "en": "jeep",
+        "ar": "جيب"
+    },
+    "underwear": {
+        "en": "underwear",
+        "ar": "ملابس داخليه"
+    },
+    "Leather": {
+        "en": "Leather",
+        "ar": "جلود"
+    },
+    "VEILS and SCARVES": {
+        "en": "VEILS and SCARVES",
+        "ar": "طرح"
+    },
+    "Hijab": {
+        "en": "Hijab",
+        "ar": "حجاب"
+    },
+    "ACCESSORIES": {
+        "en": "ACCESSORIES",
+        "ar": "التزين"
+    },
+    "Makup": {
+        "en": "Makup",
+        "ar": "مكياج"
+    },
+    "Perfums": {
+        "en": "Perfums",
+        "ar": "عطور"
+    },
+    "Female": {
+        "en": "Female",
+        "ar": "حريمى"
+    },
+    "female": {
+        "en": "female",
+        "ar": "حريمى"
+    },
+    "Lilac_Moda": {
+        "en": "Lilac Moda",
+        "ar": "ليلا مودا"
+    },
+    "New_Fashion_Collections": {
+        "en": "New Fashion Collections",
+        "ar": "مجموعة ازياء جديدة"
+    },
+    "shop_now": {
+        "en": "shop now",
+        "ar": "تسوق الآن"
+    },
+    "shop_for_accessories": {
+        "en": "shop for accessories",
+        "ar": "متجر الاكسسوارات"
+    },
+    "shop_for_women": {
+        "en": "shop for women",
+        "ar": "متجر السيدات"
+    },
+    "shop_for_children": {
+        "en": "shop for children",
+        "ar": "متجر الاطفال"
+    },
+    "best_offers": {
+        "en": "Best Offers",
+        "ar": "افضل العروض"
+    },
+    "Farokia_Towers": {
+        "en": "5C, Farokia Towers, Nozha, Cairo",
+        "ar": "5ج ابراج الفاروقيه، النزهة الجديدة، القاهرة"
+    },
+    "4_Farokia_Towers": {
+        "en": "4A, Farokia Towers",
+        "ar": "4أ ابراج الفاروقية"
+    },
+    "Newsletter": {
+        "en": "Newsletter",
+        "ar": "النشرة الإخبارية"
+    },
+    "Company": {
+        "en": "Company",
+        "ar": "الشركة"
+    },
+    "Accounting": {
+        "en": "Accounting",
+        "ar": "الحسابات"
+    },
+    "add_new": {
+        "en": "Add New",
+        "ar": "إضافة جديد"
+    },
+    "Brand_English_Name": {
+        "en": "Brand English Name",
+        "ar": "الماركة بالإنجليزى"
+    },
+    "Brand_Arabic_Name": {
+        "en": "Brand Arabic Name",
+        "ar": "الماركة بالعربى"
+    },
+    "Save_Brands": {
+        "en": "Save Brands",
+        "ar": "احفظ هذه الماركة"
+    },
+    "Cat_English_Name": {
+        "en": "Cat. English Name",
+        "ar": "الفئة بالإنجليزى"
+    },
+    "Cat_Arabic_Name": {
+        "en": "Cat. Arabic Name",
+        "ar": "الفئة بالعربى"
+    },
+    "Category_URL": {
+        "en": "Category URL",
+        "ar": "عنوان الفئة"
+    },
+    "Parent_Category": {
+        "en": "Parent Category",
+        "ar": "الفئة الرئيسية لهذه الفئة"
+    },
+    "Category_Image": {
+        "en": "Category Image",
+        "ar": "الصورة التابلعه للفئة"
+    },
+    "Save_Category": {
+        "en": "Save Category",
+        "ar": "احفظ هذه الفئة"
+    },
+    "Delete": {
+        "en": "Delete",
+        "ar": "امسح"
+    },
+    "Tag_English_Name": {
+        "en": "Tag English Name",
+        "ar": "تاج بالإنجليزى"
+    },
+    "Tag_Arabic_Name": {
+        "en": "Tag Arabic Name",
+        "ar": "تاج بالعربى"
+    },
+    "Save_Tag": {
+        "en": "Save Tag",
+        "ar": "احفظ هذا التاج"
+    },
+    "Options_English_Name": {
+        "en": "Options English Name",
+        "ar": "الاختيار باللغة الانجليزية"
+    },
+    "Options_Arabic_Name": {
+        "en": "Options Arabic Name",
+        "ar": "الاختيار باللغة العربية"
+    },
+    "Value_English_Name": {
+        "en": "Value English Name",
+        "ar": "القيمة باللغة الانجليزية"
+    },
+    "Value_Arabic_Name": {
+        "en": "Value Arabic Name",
+        "ar": "القيمة باللغة العربية"
+    },
+    "Save_Stock_Options": {
+        "en": "Save Stock Options",
+        "ar": "احفظ اختيارات المنتج الإضافية"
+    },
+    "Quantity": {
+        "en": "Quantity",
+        "ar": "الكمية"
+    },
+    "Quantities": {
+        "en": "Quantities",
+        "ar": "كميات"
+    },
+    "Total": {
+        "en": "Total",
+        "ar": "الإجمالى"
+    },
+    "Update_Cart": {
+        "en": "Update Cart",
+        "ar": "تحديث سلة المشتريات"
+    },
+    "Subtotal": {
+        "en": "Subtotal",
+        "ar": "المجموع"
+    },
+    "Shipping": {
+        "en": "Shipping",
+        "ar": "الشحن"
+    },
+    "Shipping_Details": {
+        "en": "Shipping Details",
+        "ar": "تفاصيل الشحن"
+    },
+    "Calculate_Shipping": {
+        "en": "Calculate Shipping",
+        "ar": "مصاريف الشحن"
+    },
+    "Ship_to": {
+        "en": "Ship to",
+        "ar": "الشحن على عنوان آخر ؟"
+    },
+    "Update_Details": {
+        "en": "Update Details",
+        "ar": "تعديل التفاصيل"
+    },
+    "Continue_Shopping": {
+        "en": "Continue Shopping",
+        "ar": "استكمال التسوق"
+    },
+    "Proceed_to_checkout": {
+        "en": "Proceed to checkout",
+        "ar": "الذهاب لدفع المشتريات"
+    },
+    "Browse_Categories": {
+        "en": "Browse Categories",
+        "ar": "ابحث عن الفئات"
+    },
+    "Filter": {
+        "en": "Filter",
+        "ar": "تصفية"
+    },
+    "Products_Filter": {
+        "en": "Products Filter",
+        "ar": "تصفية المنتجات"
+    },
+    "Price_Filter": {
+        "en": "Price Filter",
+        "ar": "تصفية السعر"
+    },
+    "from": {
+        "en": "from",
+        "ar": "من"
+    },
+    "to": {
+        "en": "to",
+        "ar": "الى"
+    },
+    "Count": {
+        "en": "Count",
+        "ar": "عدد"
+    },
+    "Billing_Details": {
+        "en": "Billing Details",
+        "ar": "تفاصيل الفاتورة"
+    },
+    "read_and_accept": {
+        "en": "read and accept",
+        "ar": "لقد قرأت وأوافق على"
+    },
+    "terms_conditions": {
+        "en": "terms & conditions*",
+        "ar": "البنود و القيود"
+    },
+    "Continue": {
+        "en": "Continue",
+        "ar": "استمرار"
+    },
+    "Your_Order": {
+        "en": "Your Order",
+        "ar": "طلبك"
+    },
+    "Product#1": {
+        "en": "Product#1",
+        "ar": "منتج#1"
+    },
+    "amount": {
+        "en": "amount",
+        "ar": "كمية"
+    },
+    "Check_payments": {
+        "en": "Check Payments",
+        "ar": "تأكد من المدفوعات"
+    },
+    "Please_send_the_check": {
+        "en": "Please send the check to the Store and I'll come for payment and get it.",
+        "ar": "يرجى إرسال الشيك إلى المتجر وسأأتي للدفع الحصول عليه."
+    },
+    "Paypal": {
+        "en": "Paypal",
+        "ar": "باى بال"
+    },
+    "Manage_Clients": {
+        "en": "Manage Clients",
+        "ar": "إدارة العملاء"
+    },
+    "Client": {
+        "en": "Client",
+        "ar": "عميل"
+    },
+    "Clients": {
+        "en": "Clients",
+        "ar": "عملاء"
+    },
+    "Active_Clients": {
+        "en": "Active Clients",
+        "ar": "عملاء نشطون"
+    },
+    "Inactive_Clients": {
+        "en": "Inactive Client",
+        "ar": "عملاء غير نشطون"
+    },
+    "Online_Clients": {
+        "en": "Online Clients",
+        "ar": "عملاء على الانترنت"
+    },
+    "Active_Orders": {
+        "en": "Active Orders",
+        "ar": "طلبات نشطه"
+    },
+    "Return_Orders": {
+        "en": "Return Orders",
+        "ar": "طلبات عائدة من العميل"
+    },
+    "Clients_On_Store": {
+        "en": "Clients On Store",
+        "ar": "عملاء المتجر"
+    },
+    "Choose_Here": {
+        "en": "Choose Here",
+        "ar": "اختر من هنا"
+    },
+    "Save_Client": {
+        "en": "Save Client",
+        "ar": "احفظ بيانات العميل"
+    },
+    "Add_Client": {
+        "en": "Add Client",
+        "ar": "اضف عميل جديد"
+    },
+    "Change_Client_Type": {
+        "en": "Change Client Type",
+        "ar": "تعديل سمة العميل"
+    },
+    "List_for_Orders": {
+        "en": "List for Orders",
+        "ar": "قائمة الطلبات"
+    },
+    "Order1": {
+        "en": "Order1",
+        "ar": "طلب رقم 1"
+    },
+    "List_for_Clients_Wishlists": {
+        "en": "List for Clients Wishlists",
+        "ar": "قائمة امنيات العملاء"
+    },
+    "Customer1": {
+        "en": "Customer1",
+        "ar": "عميل رقم 1"
+    },
+    "List_for_Return_Orders": {
+        "en": "List for Return Orders",
+        "ar": "قائمة بالطلبات العائدة من العملاء"
+    },
+    "List_for_Clients_Evaluations": {
+        "en": "List for Clients Evaluations",
+        "ar": "قائمة بتقييم العملاء"
+    },
+    "Evaluation": {
+        "en": "Evaluation",
+        "ar": "تقييم"
+    },
+    "order_has_confirmed": {
+        "en": "Thank you. Your order has been confirmed.",
+        "ar": "شكرآ لك. طلبك تم تأكيده"
+    },
+    "Order_Number": {
+        "en": "Order Number",
+        "ar": "رقم الطلب"
+    },
+    "Order_Date": {
+        "en": "Order Date",
+        "ar": "تاريخ الطلب"
+    },
+    "Payment_Methord": {
+        "en": "Payment Methord",
+        "ar": "طرق الدفع"
+    },
+    "Check_Payments": {
+        "en": "Check Payments",
+        "ar": "تحقق من طرق الدفع"
+    },
+    "Billing_Address": {
+        "en": "Billing Address",
+        "ar": "عنوان وصول الطلب"
+    },
+    "Street": {
+        "en": "Street",
+        "ar": "شارع"
+    },
+    "Shipping_Address": {
+        "en": "Shipping Address",
+        "ar": "عنوان الشحن"
+    },
+    "Order_Name": {
+        "en": "Order Name",
+        "ar": "اسم الطلب"
+    },
+    "Client_Name": {
+        "en": "Client Name",
+        "ar": "اسم العميل"
+    },
+    "Client_Address": {
+        "en": "Client Address",
+        "ar": "عنوان العميل"
+    },
+    "Client_Phone": {
+        "en": "Client Phone",
+        "ar": "تليفون العميل"
+    },
+    "Order_Status": {
+        "en": "Order Status",
+        "ar": "حالة الطلب"
+    },
+    "Ordered_at": {
+        "en": "Ordered at",
+        "ar": "تم الطلب بتاريخ"
+    },
+    "Order_Quantity": {
+        "en": "Order Quantity",
+        "ar": "كمية الطلب"
+    },
+    "Unit_Price": {
+        "en": "Unit Price",
+        "ar": "تمن القطعه الواحدة"
+    },
+    "Total_Price": {
+        "en": "Total Price",
+        "ar": "المجموع الكلى"
+    },
+    "Packed_Order": {
+        "en": "Packed Order",
+        "ar": "الطلب المعبأ"
+    },
+    "Packed_Orders": {
+        "en": "Packed Orders",
+        "ar": "الطلبات المعبأة"
+    },
+    "Delete_Order": {
+        "en": "Delete Order",
+        "ar": "مسح الطلب"
+    },
+    "Get_in_Touch": {
+        "en": "Get in Touch",
+        "ar": "ابقى على تواصل معنا"
+    },
+    "Send_Message": {
+        "en": "Send Message",
+        "ar": "ارسل رساله"
+    },
+    "Nozha_Cairo": {
+        "en": "Nozha, Cairo.",
+        "ar": "النزهة، القاهرة."
+    },
+    "Sat_Fri": {
+        "en": "Sat to Fri , 10am to 11pm",
+        "ar": "من السبت الى الخميس، من الساعه 10 صباحآ و حتى 11 مساءآ"
+    },
+    "Send_opinion": {
+        "en": "Send us your opinion anytime!",
+        "ar": "ارسل لنا مقترحاتك فى اى وقت!"
+    },
+    "Delivered_Orders": {
+        "en": "Delivered Orders",
+        "ar": "طلبات تم توصيلها"
+    },
+    "Rejected_Orders": {
+        "en": "Rejected Orders",
+        "ar": "طلبات تم رفضها"
+    },
+    "Order_Details": {
+        "en": "Orders Details",
+        "ar": "تفاصيل الطلب"
+    },
+    "Orders_Details": {
+        "en": "Orders Details",
+        "ar": "تفاصيل الطلبات"
+    },
+    "Delieved_by": {
+        "en": "Delieved by:",
+        "ar": "التوصيل بواسطة:"
+    },
+    "Deliver_Order": {
+        "en": "Deliver Order",
+        "ar": "تسليم الطلب"
+    },
+    "Forget_Password": {
+        "en": "Forget your Password! No Problem at all.Enter your E-mail here and receive a Message.",
+        "ar": "نسيت كلمة السر! لا مشكله على الاطلاق. اكتب بريدك الالكترونى و سوف تصلك رسالة عليه."
+    },
+    "New_Shop": {
+        "en": "New to our Shop?",
+        "ar": "جديد فى متجرنا؟"
+    },
+    "Create_Account": {
+        "en": "Create your Own Account Easily",
+        "ar": "انشئ حسابك الخاص بكل سهولة"
+    },
+    "Create_an_Account": {
+        "en": "Create an Account",
+        "ar": "انشئ حسابك"
+    },
+    "Welcome_Back": {
+        "en": "Welcome Back !Please Sign in NOW.",
+        "ar": "مرحبآ بك من جديد! من فضلك قم بتسجيل دخولك الآن."
+    },
+    "forget_password": {
+        "en": "forget password?",
+        "ar": "نسيت كلمة المرور؟"
+    },
+    "New_Orders": {
+        "en": "New Orders",
+        "ar": "طلبات جديدة"
+    },
+    "Confirm_Order": {
+        "en": "Confirm Order",
+        "ar": "تأكيد الطلب"
+    },
+    "Confirm_Orders": {
+        "en": "Confirm Orders",
+        "ar": "تأكيد الطلب"
+    },
+    "Packed_delivered_Orders": {
+        "en": "Packed and delivered Orders",
+        "ar": "الطلبات المعبأة و التى تم توصيلها"
+    },
+    "Organization_Details": {
+        "en": "Organization Details",
+        "ar": "بيانات الشركة"
+    },
+    "Add_Organization_Details": {
+        "en": "Add Organization Details",
+        "ar": "اضف بيانات الشركة"
+    },
+    "Select_photo:": {
+        "en": "Select new photo:",
+        "ar": "اختر صورة جديدة:"
+    },
+    "Add_Banking_Information": {
+        "en": "Add Org. Banking Information",
+        "ar": "اضف بيانات البنك التابع للشركة"
+    },
+    "Bank_Name": {
+        "en": "Bank Name",
+        "ar": "اسم البنك"
+    },
+    "Account_Name": {
+        "en": "Account Name",
+        "ar": "اسم الحساب البنكى"
+    },
+    "Account_Number": {
+        "en": "Account Number",
+        "ar": "رقم الحساب البنكى"
+    },
+    "Bank_Branch_Name": {
+        "en": "Bank Branch Name",
+        "ar": "اسم فرع البنك التابع له"
+    },
+    "Payment_Method": {
+        "en": "Payment Method",
+        "ar": "طرق الدفع"
+    },
+    "Active_Account_Banking": {
+        "en": "Active Account Banking",
+        "ar": "الحساب البنكى نشط"
+    },
+    "Save_Information": {
+        "en": "Save Information",
+        "ar": "احفظ البيانات"
+    },
+    "Add_New_Info": {
+        "en": "Add New Info.",
+        "ar": "اضف معلومات بنكية جديدة"
+    },
+    "Active_Account": {
+        "en": "Active Account",
+        "ar": "حساب بنكى نشط"
+    },
+    "Inactive_Account": {
+        "en": "Inactive Account",
+        "ar": "حساب بنكى غير نشط"
+    },
+    "Add_Users_working_Organization": {
+        "en": "Add Users working in Org.",
+        "ar": "اضف بيانات العاملين بالشركة"
+    },
+    "Admin": {
+        "en": "Admin",
+        "ar": "مشرف"
+    },
+    "User": {
+        "en": "User",
+        "ar": "مستخدم"
+    },
+    "Active_User": {
+        "en": "Active User",
+        "ar": "مستخدم نشط"
+    },
+    "Inactive_User": {
+        "en": "Inactive User",
+        "ar": "مستخدم غير نشط"
+    },
+    "Save_User": {
+        "en": "Save User",
+        "ar": "احفظ بيانات المستخدم"
+    },
+    "Add_New_User": {
+        "en": "Add New User",
+        "ar": "اضف بيانات مستخدم جديد"
+    },
+    "Change_User_Type": {
+        "en": "Change User Type",
+        "ar": "تغيير سمة المستخدم"
+    },
+    "Enter_new_Password": {
+        "en": "Now Enter a new Password !",
+        "ar": "ادخل كلمة السر الجديدة!"
+    },
+    "Add_Store_Details": {
+        "en": "Add Store Details",
+        "ar": "اضف بيانات المتجر"
+    },
+    "Save": {
+        "en": "Save",
+        "ar": "احفظ"
+    },
+    "Add_Users_working_Store": {
+        "en": "Add Users working in Store",
+        "ar": "اضف بيانات العاملين بالمتجر"
+    },
+    "Order_Management": {
+        "en": "Order Management",
+        "ar": "مدير ادارة الطلبات"
+    },
+    "Accountant": {
+        "en": "Accountant",
+        "ar": "محاسب"
+    },
+    "Store_Sale": {
+        "en": "Store Sale",
+        "ar": "بائع فى المتجر"
+    },
+    "Storage_User": {
+        "en": "Storage User",
+        "ar": "عامل التخزين بالمتجر"
+    },
+    "Save_Store_User": {
+        "en": "Save Store User",
+        "ar": "احفظ بيانات العاملين بالمتجر"
+    },
+    "track_your_order_please": {
+        "en": "To track your order please enter your Order ID in the box below and press the (Track Order) button. This was given to you on your receipt and in the confirmation email you should have received.",
+        "ar": "لتتبع طلبك، يرجى ادخال الرقم المسلسل للطلب فى المكان المخصص و اضغط على (تتبع الطلب). تم تقديم هذا الرقم لك فى ايصالك و ايضآ فى رسالة التأكيد الإلكترونيه التى من المفترض ان تكون قد وصلتك."
+    },
+    "Your_Profile": {
+        "en": "Your Profile",
+        "ar": "الحساب الشخصى الخاص بك"
+    },
+    "Add_Database": {
+        "en": "Add in Database",
+        "ar": "اضف كل ماهو جديد"
+    },
+
+    "add_to_cart": {
+        "en": "add to cart",
+        "ar": "اضف الى سلة المشتريات"
+    },
+    "Width": {
+        "en": "Width",
+        "ar": "العرض"
+    },
+    "Height": {
+        "en": "Height",
+        "ar": "ارتفاع"
+    },
+    "Weight": {
+        "en": "Weight",
+        "ar": "الوزن"
+    },
+    "Length": {
+        "en": "Length",
+        "ar": "الطول"
+    },
+    "Quality_Checking": {
+        "en": "Quality Checking",
+        "ar": "فحص الجودة"
+    },
+    "When_Packaging": {
+        "en": "When Packaging",
+        "ar": "وقت التعبئة و التغليف"
+    },
+    "Post_Comment": {
+        "en": "Post a Comment",
+        "ar": "اكتب تعليق"
+    },
+    "Submit_Now": {
+        "en": "Submit Now",
+        "ar": "ارسل الآن"
+    },
+    "Overall": {
+        "en": "Overall",
+        "ar": "تقييم عام"
+    },
+    "Based_on_Reviews": {
+        "en": "Based on 3 Reviews",
+        "ar": "بناءآ على 3 تقييمات"
+    },
+    "5_Star": {
+        "en": "5 Star",
+        "ar": "5 نجوم"
+    },
+    "4_Star": {
+        "en": "4 Star",
+        "ar": "4 نجوم"
+    },
+    "3_Star": {
+        "en": "3 Star",
+        "ar": "3 نجوم"
+    },
+    "2_Star": {
+        "en": "2 Star",
+        "ar": "2 نجوم"
+    },
+    "1_Star": {
+        "en": "1 Star",
+        "ar": "1 نجوم"
+    },
+    "Add_Review": {
+        "en": "Add a Review",
+        "ar": "اضف تقييمك او نقدك"
+    },
+    "Your_Rating": {
+        "en": "Your Rating",
+        "ar": "تقييمك"
+    },
+    "Best_Sellers": {
+        "en": "Best Sellers",
+        "ar": "افضل المبيعات"
+    },
+    "Manage_Store": {
+        "en": "Manage Store",
+        "ar": "إدارة المتجر"
+    },
+    "Track_Order": {
+        "en": "Track Order",
+        "ar": "تتبع الطلب"
+    },
+    "Search_Result": {
+        "en": "Search Result",
+        "ar": "نتيجة البحث"
+    },
+    "Lilac_Moda_copy_2020": {
+        "en": "Lilac Moda &copy; 2020",
+        "ar": "ليلا مودا &copy; 2020"
+    },
+    "login_email_p": {
+        "en": "Email Address",
+        "ar": "البريد الإلكتروني"
+    },
+    "login_password_ph": {
+        "en": "Password",
+        "ar": "كلمة السر"
+    },
+    "Brand_en_name_ph": {
+        "en": "Brand English Name",
+        "ar": "الماركة باللغة الإنجليزية"
+    },
+    "Brand_ar_name_ph": {
+        "en": "Brand Arabic Name",
+        "ar": "الماركة باللغة العربية"
+    },
+    "cat_en_name_ph": {
+        "en": "Cat. English Name",
+        "ar": "الفئة باللغة الإنجليزية"
+    },
+    "cat_ar_name_ph": {
+        "en": "Cat. Arabic Name",
+        "ar": "الفئة باللغة العربية"
+    },
+    "cat_url_ph": {
+        "en": "Cat. URL",
+        "ar": "عنوان الفئة"
+    },
+    "cat_parent_cat_ph": {
+        "en": "Parent Category",
+        "ar": "الفئة الرئيسية لهذه الفئة"
+    },
+    "tag_en_name_ph": {
+        "en": "Tag English Name",
+        "ar": "التاج باللغة الإنجليزية"
+    },
+    "tag_ar_name_ph": {
+        "en": "Tag Arabic Name",
+        "ar": "التاج باللغة العربية"
+    },
+    "option_en_name_ph": {
+        "en": "Option English Name",
+        "ar": "الاختلاف باللغة الإنجليزية"
+    },
+    "option_ar_name_ph": {
+        "en": "Option Arabic Name",
+        "ar": "الاختلاف باللغة العربية"
+    },
+    "value_en_name_ph": {
+        "en": "Value English Name",
+        "ar": "القيمة باللغة الإنجليزية"
+    },
+    "value_ar_name_ph": {
+        "en": "Value Arabic Name",
+        "ar": "القيمة باللغة العربية"
+    },
+    "First_Name_ph": {
+        "en": "First Name",
+        "ar": "الإسم الأول"
+    },
+    "Middle_Name_ph": {
+        "en": "Middle Name",
+        "ar": "الإسم الاوسط"
+    },
+    "Last_Name_ph": {
+        "en": "Last Name",
+        "ar": "اسم العائلة"
+    },
+    "Email_ph": {
+        "en": "Email Address",
+        "ar": "البريد الإلكتروني"
+    },
+    "Phone_ph": {
+        "en": "Phone Number",
+        "ar": "رقم الهاتف"
+    },
+    "Telephone_ph": {
+        "en": "Telephone",
+        "ar": "رقم الهاتف"
+    },
+    "Mobile_ph": {
+        "en": "Mobile",
+        "ar": "رقم هاتف المحمول"
+    },
+    "Address_ph": {
+        "en": "Address",
+        "ar": "العنوان"
+    },
+    "Address_1_ph": {
+        "en": "Address Line1",
+        "ar": "العنوان"
+    },
+    "Address_2_ph": {
+        "en": "Address Line2",
+        "ar": "العوان"
+    },
+    "Password_ph": {
+        "en": "Password",
+        "ar": "كلمة السر"
+    },
+    "New_Password_ph": {
+        "en": "New Password",
+        "ar": "اكتب كلمة سر جديدة"
+    },
+    "Password_Again_ph": {
+        "en": "Password Again",
+        "ar": "أعد كتابة كلمة السر مرة آخرى"
+    },
+    "order_ph": {
+        "en": "Order Notes",
+        "ar": "اكتب ملاحظاتك للطلب"
+    },
+    "credit_ph": {
+        "en": "Credit Card",
+        "ar": "ادخل رقم كارت الإئتمان الخاص بك"
+    },
+    "Enter_Note_ph": {
+        "en": "Enter Message",
+        "ar": "اكتب رسالتك"
+    },
+    "Enter_name_ph": {
+        "en": "Enter Your Full Name",
+        "ar": "اكتب اسمك بالكامل"
+    },
+    "Enter_Email_ph": {
+        "en": "Enter your Email",
+        "ar": "ادخل بريدك الإلكترونى"
+    },
+    "Enter_Subject_ph": {
+        "en": "Enter Subject",
+        "ar": "ادخل عنوان الرسالة"
+    },
+    "Delivery_Company_ph": {
+        "en": "Write Delivery Company Name",
+        "ar": "اكتب اسم شركة الشحن"
+    },
+    "Search_Here_ph": {
+        "en": "Search Here",
+        "ar": "ابحث"
+    },
+    "English_Organization_Name_ph": {
+        "en": "English Organization Name",
+        "ar": "اسم الشركة باللغة الإنجليزية"
+    },
+    "Arabic_Organization_Name_ph": {
+        "en": "Arabic Organization Name",
+        "ar": "اسم الشركة باللغة العربيه"
+    },
+    "Organization_Address_1_ph": {
+        "en": "Organization Address 1",
+        "ar": "عنوان الشركة الأول"
+    },
+    "Organization_Address_2_ph": {
+        "en": "Organization Address 2",
+        "ar": "عنوان الشركة الثاني"
+    },
+    "Organization_Email_ph": {
+        "en": "Organization Email",
+        "ar": "البريد الإلكتروني الخاص بالشركة"
+    },
+    "Organization_Phone_ph": {
+        "en": "Organization Phone",
+        "ar": "رقم تليفون الشركة"
+    },
+    "Bank_Name_ph": {
+        "en": "Bank Name",
+        "ar": "اسم البنك"
+    },
+    "Account_Name_ph": {
+        "en": "Account Name",
+        "ar": "اسم الحساب البنكى"
+    },
+    "Account_Number_ph": {
+        "en": "Account Number",
+        "ar": "رقم الحساب البنكى"
+    },
+    "Bank_Branch_Name_ph": {
+        "en": "Bank Branch Name",
+        "ar": "اسم فرع البنك"
+    },
+    "Payment_Method_ph": {
+        "en": "Payment Method",
+        "ar": "طرق الدفع"
+    },
+    "Enter_Review_ph": {
+        "en": "Enter a Review",
+        "ar": "اكتب تقييمك"
+    },
+    "Write_Comment_ph": {
+        "en": "Write a Comment",
+        "ar": "اكتب تعليقك"
+    },
+    "English_Store_Name_ph": {
+        "en": "English Store Name",
+        "ar": "اسم المتجر باللغة الإنجليزية"
+    },
+    "Arabic_Store_Name_ph": {
+        "en": "Arabic Store Name",
+        "ar": "اسم المتجر باللغة العربية"
+    },
+    "Store_Address_ph": {
+        "en": "Store Address",
+        "ar": "عنوان المتجر"
+    },
+    "Store_Email_ph": {
+        "en": "Store Email",
+        "ar": "البريد الإلكتروني الخاص بالمتجر"
+    },
+    "Store_Phone_ph": {
+        "en": "Store Phone",
+        "ar": "رقم تليفون المتجر"
+    },
+    "Store_Website_ph": {
+        "en": "Store Website",
+        "ar": "الموقع الإلكترونى الخاص بالمتجر"
+    },
+    "Order_ID_ph": {
+        "en": "Order ID",
+        "ar": "رقم الطلب"
+    },
+    "Billing_Email_Address_ph": {
+        "en": "Billing Email Address",
+        "ar": "عنوان البريد الإلكترونى المسجل في الفاتورة"
+    },
+    "Tell_us_want_ph": {
+        "en": "Tell us what you want",
+        "ar": "اخبرنا عن ماذا تريد"
+    },
+    "Show_Hide_in_Home": {
+        "en": "Show_Hide Sections in Home Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى الصفحة الرئيسية"
+    },
+    "Main_Menu": {
+        "en": "Main Menu (Navbar)",
+        "ar": "القائمة الرئيسية (Navbar)"
+    },
+    "Banner_Part": {
+        "en": "Banner Part",
+        "ar": "الشعار"
+    },
+    "Slide_Show": {
+        "en": "Slide Show (Carousel)",
+        "ar": "الصور المتحركة "
+    },
+    "Instagram_Photo": {
+        "en": "Instagram Photo",
+        "ar": "الصور التى تٌعرض على انستاجرام"
+    },
+    "Footer": {
+        "en": "Footer",
+        "ar": "نهاية الصفحة"
+    },
+    "Save_HomePage_Setting": {
+        "en": "Save Home Page Setting",
+        "ar": "احفظ تغييرات الصفحة الرئيسية"
+    },
+    "Show_Hide_in_Shop": {
+        "en": "Show_Hide Sections in Shop Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى صفححة التسوق"
+    },
+    "Breadcrumb": {
+        "en": "Breadcrumb",
+        "ar": "تفاصيل الوصول إلى الصفحه"
+    },
+    "Filter_Brands": {
+        "en": "Filter for Brands",
+        "ar": "تصفية الماركات"
+    },
+    "Filter_Categories": {
+        "en": "Filter for Categories",
+        "ar": "تصفية الفئات"
+    },
+    "Filter_Size": {
+        "en": "Filter for Size",
+        "ar": "تصفية الحجم"
+    },
+    "Filter_Price": {
+        "en": "Filter for Price",
+        "ar": "تصفية السعر"
+    },
+    "Save_ShopPage_Setting": {
+        "en": "Save Shop Page Setting",
+        "ar": "احفظ تغييرات صفحة التسوق"
+    },
+    "Show_Hide_in_Client": {
+        "en": "Show_Hide Sections in Client Managemant Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى صفحة ادارة العملاء"
+    },
+    "Filter_Clients": {
+        "en": "Filter for Clients",
+        "ar": "تصفية العملاء"
+    },
+    "Filter_Orders": {
+        "en": "Filter for Orders",
+        "ar": "تصفية الطلبات"
+    },
+    "Save_ClientPage_Setting": {
+        "en": "Save Client Management Page Setting",
+        "ar": "احفظ تغييرات صفحة إدارة العملاء"
+    },
+    "Show_Hide_in_SingleProduct": {
+        "en": "Show_Hide Sections in Single Product Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى صفحة المنتج الواحد"
+    },
+    "Save_SingleProductPage_Setting": {
+        "en": "Save Single Product Page Setting",
+        "ar": "احفظ تغييرات صفحة المنتج الواحد"
+    },
+    "Show_Hide_in_OrgDetails": {
+        "en": "Show_Hide Sections in Org. Details Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام افى صفحة بيانات الشركة"
+    },
+    "Save_OrgDetails_Page_Setting": {
+        "en": "Save Org. Details Page Setting",
+        "ar": "احفظ تغييرات صفحة ادارة بيانات الشركة"
+    },
+    "Show_Hide_in_StoreDetails": {
+        "en": "Show_Hide Sections in Store Details Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى صفحة ادارة بيانات المتجر"
+    },
+    "Save_StoreDetails_Page_Setting": {
+        "en": "Save Store Details Page Setting",
+        "ar": "احفظ تغييرات صفحة ادارة بيانات المتجر"
+    },
+    "Show_Hide_in_Add_DB": {
+        "en": "Show_Hide Sections in Add in DB Page",
+        "ar": "إظهار/ إخفاء بعض الأقسام فى صفحة أضافة جديد للداتابيز"
+    },
+    "Show_All_Brands": {
+        "en": "Show All Brands from DB",
+        "ar": "عرض كل الماركات"
+    },
+    "Show_All_Categories": {
+        "en": "Show All Categories from DB",
+        "ar": "عرض كل الفئات"
+    },
+    "Show_All_Tags": {
+        "en": "Show All Tags from DB",
+        "ar": "عرض كل العلامات"
+    },
+    "Add_New_Brand": {
+        "en": "Add New Brand to DB",
+        "ar": "إضافة ماركة جديدة"
+    },
+    "Add_New_Category": {
+        "en": "Add New Category to DB",
+        "ar": "إضافة فئة جديدة"
+    },
+    "Add_New_Tag": {
+        "en": "Add New Tag to DB",
+        "ar": "اضافة علامة جديدة"
+    },
+    "Save_AddinDB_Page_Setting": {
+        "en": "Save Add in DB Page Setting",
+        "ar": "احفظ تغييرات صفحة إضافة جديد للداتابيز"
+    },
+    "Color": {
+        "en": "Color Change",
+        "ar": "تغيير اللون"
+    },
+    "Font": {
+        "en": "Font Style",
+        "ar": "نوع الخط"
+    },
+    "choose_color": {
+        "en": "Choose Color for your Website:",
+        "ar": "اختر اللون الذى تحب ان يكون عليه موقعك"
+    },
+    "Save_change_color": {
+        "en": "Save changing colors",
+        "ar": "احفظ تغيير اللون"
+    },
+    "change_font_style": {
+        "en": "Choose Font Style in your Website:",
+        "ar": "اختر نوع الخط الذى تريد ان يكون عليه موقعك"
+    },
+    "save_font_style": {
+        "en": "Save changing font style",
+        "ar": "احفظ تغيير نوع الخط"
+    },
+    "Quick_Survay": {
+        "en": "Quick Survay",
+        "ar": "استبيان سريع"
+    },
+    "Find_you_need": {
+        "en": "Find you need",
+        "ar": "تجد ما تبحث عنه"
+    },
+    "Design": {
+        "en": "Design",
+        "ar": "التصميم"
+    },
+    "Recommendation": {
+        "en": "Recommendation",
+        "ar": "التوصيات"
+    },
+    "Suggestion": {
+        "en": "Suggestion",
+        "ar": "المقترحات"
+    },
+    "Other": {
+        "en": "Other",
+        "ar": "رأى آخر"
+    },
+    "Question_1": {
+        "en": "Question #1: Overall, How well does our website meet your needs?",
+        "ar": "السؤال رقم 1: بشكل عام ، ما مدى تلبية موقعنا لاحتياجاتك؟"
+    },
+    "Very_Well": {
+        "en": "Very Well",
+        "ar": "ممتاز"
+    },
+    "Somewhat_Well": {
+        "en": "Somewhat Well",
+        "ar": "جيد إلى حد ما"
+    },
+    "Not_Well": {
+        "en": "Not so Well",
+        "ar": "ليس على ما يرام"
+    },
+    "Not_all_Well": {
+        "en": "Not at all Well",
+        "ar": "ليس جيدًا على الإطلاق"
+    },
+    "Question_2": {
+        "en": "Question #2: How easy was it to find what you were looking for on our website?",
+        "ar": "السؤال رقم 2: ما مدى سهولة العثور على ما كنت تبحث عنه على موقعنا؟"
+    },
+    "Very_Easy": {
+        "en": "Very Easy",
+        "ar": "سهل جدآ"
+    },
+    "Somewhat_Easy": {
+        "en": "Somewhat Easy",
+        "ar": "سهل الى حد ما"
+    },
+    "Not_Easy": {
+        "en": "Not so Easy",
+        "ar": "ليس سهلآ"
+    },
+    "Not_at_all_Easy": {
+        "en": "Not at all Easy",
+        "ar": "ليس سهلآ على الاطلاق"
+    },
+    "Question_3": {
+        "en": "Question #3: Did it take you more or less time than you expected to find what you were looking for on our website?",
+        "ar": "السؤال رقم 3: هل استغرق الأمر وقتًا أكثر أو أقل مما كنت تتوقع العثور على ما كنت تبحث عنه على موقعنا؟"
+    },
+    "lot_less_time": {
+        "en": "A lot less time",
+        "ar": "وقت اقل كثيرآ"
+    },
+    "little_less_time": {
+        "en": "A little less time",
+        "ar": "اقل قليلا من الوقت"
+    },
+    "About_what_expected": {
+        "en": "About what I expected",
+        "ar": "حول ما كنت اتوقع"
+    },
+    "little_more_time": {
+        "en": "A little more time",
+        "ar": "المزيد من الوقت"
+    },
+    "lot_more_time": {
+        "en": "A lot more time",
+        "ar": "الكثير من الوقت"
+    },
+    "Question_4": {
+        "en": "Question #4: How visually attractive is our website?",
+        "ar": "السؤال رقم 4: ما مدى جاذبي موقعنا؟"
+    },
+    "Very_Attractive": {
+        "en": "Very Attractive",
+        "ar": "جذاب جدا"
+    },
+    "Somewhat_Attractive": {
+        "en": "Somewhat Attractive",
+        "ar": "جذابة إلى حد ما"
+    },
+    "Not_so_Attractive": {
+        "en": "Not so Attractive",
+        "ar": "ليست جذابة جدا"
+    },
+    "Not_at_all_Attractive": {
+        "en": "Not at all Attractive",
+        "ar": "ليست جذابة على الاطلاق"
+    },
+    "Question_5": {
+        "en": "Question #5: How easy is it to understand the information on our website?",
+        "ar": "السؤال رقم 5: ما مدى سهولة فهم المعلومات الموجودة على موقعنا؟"
+    },
+    "Question_6": {
+        "en": "Question #6: How much do you trust the information on our website?",
+        "ar": "السؤال رقم 6: الى اى مدى تثق فى موقعنا؟"
+    },
+    "great_deal": {
+        "en": "A great deal",
+        "ar": "ثقة عالية"
+    },
+    "A_lot": {
+        "en": "A lot",
+        "ar": "كثيرآ"
+    },
+    "A_moderate_amount": {
+        "en": "A Moderate Amount",
+        "ar": "اثق الى حد ما"
+    },
+    "A_little": {
+        "en": "A little",
+        "ar": "قليلآ"
+    },
+    "Not_at_all": {
+        "en": "Not at all",
+        "ar": "ليس على الطلاق"
+    },
+    "Question_7": {
+        "en": "Question #7: How likely is it that you would recommend our website to a friend?",
+        "ar": "السؤال رقم 7: ما مدى احتمال أن توصي موقع الويب الخاص بنا لأحد الأصدقاء؟"
+    },
+    "Question_8": {
+        "en": "Question #8: Do you have any other comments about how we can improve our website?",
+        "ar": "السؤال رقم 8: هل لديك اقتراحات آخرى لتحسين موقعنا؟"
+    },
+    "Add_your_Data": {
+        "en": "Add your Data",
+        "ar": "اضف بياناتك"
+    },
+    "Next_Step": {
+        "en": "Next Step! ",
+        "ar": "الخطوة التاليه !"
+    },
+    "Previous_Step": {
+        "en": " Previous Step!",
+        "ar": " الخطوة السابقة!"
+    }
+}

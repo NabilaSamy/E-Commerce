@@ -1,0 +1,603 @@
+<!doctype html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lilac - Stock Management</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body class="bg-white" onload="$('#multipleProducts').hide();">
+    <!-- Start Sidemenu -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn fa fa-chevron-left" onclick="closeSide()"></a>
+        <img class="mx-auto d-block rounded-circle" src="img/Clients/Client-01.jpg" alt="">
+        <span class="user-name text-center">Nabila Samy</span><br>
+        <a class="text-center" href="userProfile.html"><i class="fas fa-user"></i> Profile</a>
+        <a class="text-center" href="storeAdmin.html"><i class="fas fa-users"></i> Store users</a>
+        <a class="text-center" href="clientsMgmt.html"><i class="fas fa-users"></i> Clients</a>
+        <a class="text-center" href="addNew.html" style="margin-left: -27px;"><i class="fas fa-users"></i> Add in Database</a>
+        <a class="text-center" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    <!-- End Sidemenu -->
+
+    <div id="main">
+        <!--::header part start::-->
+        <header class="main_menu home_menu">
+            <div class="container-fluid">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-lg-11">
+                        <nav class="navbar navbar-expand-lg navbar-light">
+                            <!-- Open Sidemenu -->
+                            <button class="openbtn fa fa-bars" onclick="openSide()"></button>
+                            <!-- Navbar -->
+                            <a class="navbar-brand" href="index.html"><span>Lilac</span></a>
+
+                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+
+                            <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                                <ul class="navbar-nav">
+                                    <li class="nav-item"><a class="nav-link" href="index.html" json-html="Home">Home</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="category.html" json-html="Shop">Shop</a></li>
+                                    <li class="nav-item dropdown">
+                                        <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" json-html="pages">pages</a>
+                                        <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                            <a class="dropdown-item" href="login.html" json-html="Login">Login</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="tracking.html" json-html="Tracking">Tracking</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="checkout.html" json-html="Checkout">Checkout</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="cart.html" json-html="Cart">Shopping Cart</a>
+                                            <div class="dropdown-divider"></div>
+                                            <a class="dropdown-item" href="confirmation.html" json-html="Confirmation">Confirmation</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link" href="about.html" json-html="About">About</a></li>
+                                    <li class="nav-item"><a class="nav-link" href="contact.html" json-html="Contact">Contact</a></li>
+                                </ul>
+                            </div>
+
+                            <form action="category.html" action="GET" class="d-flex justify-content-between search-inner">
+                                <input type="text" class="form-control" id="search_input" name="keyword" json-attr="placeholder,Search_Here_ph" placeholder="Search Here" required>
+                                <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+                            </form>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Header part end-->
+
+        <!--================Home Banner Area =================-->
+        <!-- breadcrumb start-->
+        <section class="breadcrumb breadcrumb_bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb_iner">
+                            <div class="breadcrumb_iner_item">
+                                <p><a href="index.html" style="color: #777777;">Home</a> / Manage Products</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end-->
+
+        <!-- Start Section Add New Stock -->
+        <section class="container pt-5">
+            <h1 class="pb-3">Add Product</h1>
+            <form name="addProductForm">
+                <table id="addProdu" style="width: 100%;">
+                    <div class="form-group card pb-2">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <label class="px-2 pt-2">English Name: </label>
+                                <input type="text" class="form-control" placeholder="Product English Name" id="name_en" name="name_en" required>
+                            </div>
+
+                            <div class="col-sm-6">
+                                <label class="px-2 pt-2">Arabic Name: </label>
+                                <input type="text" class="form-control" placeholder="Product Arabic Name" id="name_ar" name="name_ar" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <h4 class="px-2 pt-2">Select Brand, Category:</h4>
+                        <div class="row m-0">
+                            <div class="form-group col-sm-6 pr-1">
+                                <label>Brand: </label>
+                                <select class="form-control" id="brand_id" name="brand_id" appendBrandOptions required></select>
+                            </div>
+
+                            <div class="form-group col-sm-6 pl-1">
+                                <label>Category: </label>
+                                <select class="form-control" id="category_id" name="category_id" appendCatOptions required></select>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3">
+                        <h4 class="px-2 pt-2">Write and Select Tags:</h4>
+                        <div class="row form-group px-1">
+                            <div class="col-sm-6">
+                                <label>Tags: </label>
+                                <div class="tags">
+                                    <select class="form-control" id="tag_id" name="tag_id" appendTagOptions required></select>
+                                </div>
+                            </div>
+                            <div class="col-sm-3">
+                                <label>English Tags:</label>
+                                <input type="text" class="form-control" placeholder="English Tags" id="label_en" name="label_en" required>
+                            </div>
+                            <div class="col-sm-3">
+                                <label>Arabic Tags:</label>
+                                <input type="text" class="form-control" placeholder="Arabic Tags" id="label_ar" name="label_ar" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row m-0">
+                        <button class="btn btn_1 p-5" onclick="$('#singleProduct').show();$(this).parent().hide();">Add Single Product</button>
+
+                        <button class="btn btn_1 p-5" onclick="$('#singleProduct').hide();$('#multipleProducts').show();$(this).parent().hide();">Add Product Variant</button>
+                    </div>
+
+                    <div class="w100 card px-2 pt-1" id="singleProduct" style="display: none;">
+                        <h4 class="pt-2">Single Product Details:</h4>
+                        <hr style="margin-top: 1px; width: 18%; height: 1.5px; background-color:black;">
+                        <h4>Product Options:</h4>
+                        <div class="details">
+                            <div class="detail row">
+                                <div class="form-group col-sm-6">
+                                    <label>English Option: </label>
+                                    <input type="text" class="form-control" placeholder="English Option" id="title_en" name="title_en" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label>English Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="English Option Value" id="name_en" name="name_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6">
+                                    <label>Arabic Option: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option" id="title_ar" name="title_ar" required>
+                                </div>
+                                <div class="form-group col-sm-6">
+                                    <label>Arabic Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option Value" id="name_ar" name="name_ar" required>
+                                </div>
+                            </div>
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Shop Keeping Unit: </label>
+                                    <input type="text" class="form-control" placeholder="Product SKU" id="sku" name="sku" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Quantity in Stock: </label>
+                                    <input type="number" checkValue="int" class="form-control" placeholder="Product Quantity" min="0" max="99" id="stock" name="stock" onkeypress="return onlyNumberKey(event)" required>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Price: </label>
+                                    <div class="input-group">
+                                        <input type="number" class="form-control" placeholder="Product Price" id="unit_price" name="unit_price" onkeypress="return onlyNumberKey(event)" required>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">EGP</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Discount: </label>
+                                    <div class="input-group">
+                                        <input type="number" checkValue="int" class="form-control" placeholder="Product Discount" min="0" max="99" onkeypress="return onlyNumberKey(event)" id="discount" name="discount" required>
+                                        <div class="input-group-append">
+                                            <span class="input-group-text">%</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Discription: </label>
+                                    <input type="text" class="form-control" placeholder="Small English Description" id="overview_en" name="overview_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pr-1">
+                                    <label>Arabic Description: </label>
+                                    <input type="text" class="form-control" placeholder="Small Arabic Description" id="overview_ar" name="overview_ar" required>
+                                </div>
+                            </div>
+
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Full English Discription: </label>
+                                    <textarea class="form-control" placeholder="Full English Description" rows="5" cols="30" maxlength="500" id="description_en" name="description_en" required></textarea>
+                                    <div class="stopWarning"></div>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Full Arabic Discription: </label>
+                                    <textarea class="form-control" placeholder="Full Arabic Description" rows="5" cols="30" maxlength="500" id="description_ar" name="description_ar" required></textarea>
+                                    <div class="stopWarning"></div>
+                                </div>
+                            </div>
+
+                            <div class="row m-0">
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Main Image(in Low Resolution): </label>
+                                    <input type="file" class="form-control-file" accept="image/jpeg,image/png,image/jpg" id="thumbnail" name="thumbnail" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Other Images(in High Resolution): </label>
+                                    <input type="file" class="form-control-file" multiple accept="image/jpeg,image/png,image/jpg" id="stock_detail_images" name="stock_detail_images" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="w100 card px-2 pt-1" id="multipleProducts">
+                        <h4 class="pt-2">Multiple Product Details:</h4>
+                        <hr style="margin-top: 1px; width: 18%; height: 1.5px; background-color:black;">
+                        <h4>Product Options:</h4>
+                        <div class="details">
+                            <div class="detail row m-0">
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Option: </label>
+                                    <input type="text" class="form-control" placeholder="English Option" id="title_en" name="title_en" required>
+                                </div>
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>English Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="English Option Value" id="name_en" name="name_en" required>
+                                </div>
+
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Arabic Option: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option" id="title_ar" name="title_ar" required>
+                                </div>
+                                <div class="form-group col-sm-6 pl-1">
+                                    <label>Arabic Option Value: </label>
+                                    <input type="text" class="form-control" placeholder="Arabic Option Value" id="name_ar" name="name_ar" required>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">English Name: </label>
+                                <input type="text" class="form-control" placeholder="English Name" id="name_en" name="name_en" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Arabic Name: </label>
+                                <input type="text" class="form-control" placeholder="Arabic Name" id="name_ar" name="name_ar" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">English Description: </label>
+                                <input type="text" class="form-control" placeholder="Small English Description" id="overview_en" name="overview_en" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Arabic Description: </label>
+                                <input type="text" class="form-control" placeholder="Small Arabic Description" id="overview_ar" name="overview_ar" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Price: </label>
+                                <input type="number" class="form-control" placeholder="Product Price" id="unit_price" name="unit_price" onkeypress="return onlyNumberKey(event)" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Discount: </label>
+                                <input type="number" class="form-control" placeholder="Product Discount" id="discount" name="discount" onkeypress="return onlyNumberKey(event)" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Shop Keeping Unit: </label>
+                                <input type="text" class="form-control" placeholder="Product SKU" id="sku" name="sku" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Quantity in Stock: </label>
+                                <input type="text" class="form-control" placeholder="Product Quantity" id="stock" name="sku" required>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Main Image: </label>
+                                <input type="file" class="form-control-file" accept="image/jpeg,image/png,image/jpg" id="thumbnail" name="thumbnail" required>
+                            </div>
+                            <div class="form-group col-sm-6">
+                                <label class="px-2 pt-2">Extra Image: </label>
+                                <input type="file" class="form-control-file" multiple accept="image/jpeg,image/png,image/jpg" id="stock_detail_images" name="stock_detail_images" required>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn_1 p-5" onclick="saveProdc();">Save Product</button>
+                </table>
+            </form>
+            <button class="btn btn_1 p-5" onclick="addNewProd();">Add New Product</button>
+        </section>
+        <!-- End Section Add New Stock -->
+
+        <!-- Start Stock Management -->
+        <section class="addDB" style="padding: 80px 0;">
+            <div class="container">
+                <div class="p-sm-3">
+                    <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="javascript: void(0);" tab-controller="#ShowStock">Show Stock</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="javascript: void(0);" tab-controller="#AddStock">Add New Stock</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div id="ShowStock" tab>
+                        <div id="stockOutput">
+                            <div class="card shadow" data-toggle="modal" data-target="#stockDetails" stock-data="">
+                                <h2 class="container">Item Information:</h2>
+                                <hr>
+                                <h3>Title</h3>
+                                <h3>Category</h3>
+                                <h3>Brand</h3>
+                            </div>
+                        </div>
+
+                        <div class="modal fade" id="stockDetails">
+                            <div class="modal-dialog modal-xl">
+                                <div class="modal-content">
+                                    <!-- Modal Header -->
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" id="sdTitle">More Item Details</h4>
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                    </div>
+
+                                    <!-- Modal body -->
+                                    <div class="modal-body">
+                                        <table class="table w-100 table-striped">
+                                            <tr>
+                                                <td class="text-center">
+                                                    <h3>Title</h3>
+                                                </td>
+                                                <td class="text-center">
+                                                    <h3>Category</h3>
+                                                </td>
+                                                <th class="text-center">
+                                                    <h3>Brand</h3>
+                                                </th>
+                                                <th class="text-center">
+                                                    <h3>Quantity in Stock</h3>
+                                                </th>
+                                                <th class="text-center">
+                                                    <h3>Item Description</h3>
+                                                </th>
+                                            </tr>
+
+                                            <tr>
+                                                <td class="text-center">Item Title</td>
+                                                <td class="text-center">Item Category</td>
+                                                <td class="text-center">Item Brand</td>
+                                                <td class="text-center">Item Quantity in Stock</td>
+                                                <td class="text-center">Item Description</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+
+                                    <!-- Modal footer -->
+                                    <div class="modal-footer">
+                                        <button type="button" class="close_card btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="stockDetails">
+                            <div id="stockItemDetails"></div>
+                        </div>
+                    </div>
+
+                    <div class="hidden" id="AddStock" tab>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Stock Management -->
+
+        <!-- Start Carousel/ Slideshow -->
+        <div id="mySlideshow" class="carousel slide text-center" data-ride="carousel" style="margin-top: 127px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="img/instagram/inst_1.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_2.jfif" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_3.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_4.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_5.png" alt="">
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#mySlideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#mySlideshow" data-slide-to="1"></li>
+                <li data-target="#mySlideshow" data-slide-to="2"></li>
+                <li data-target="#mySlideshow" data-slide-to="3"></li>
+                <li data-target="#mySlideshow" data-slide-to="4"></li>
+            </ol>
+        </div>
+        <!-- End Carousel -->
+
+        <!-- subscribe_area part start-->
+        <section class="instagram_photo">
+            <div class="container-fluid">
+                <div class=" row">
+                    <div class="col-lg-12">
+                        <div class="instagram_photo_iner">
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_1.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_2.jfif" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_3.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_4.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_5.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--::subscribe_area part end::-->
+
+        <!--::footer_part start::-->
+        <footer class="footer_part">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="category">Category</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="category.html" json-html="women">Women</a></li>
+                                <li><a href="category.html" json-html="children">Children</a></li>
+                                <li><a href="category.html" json-html="accessories">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="Company">Company</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="about.html" json-html="About">About</a></li>
+                                <li><a href="contact.html" json-html="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single_footer_part">
+                            <h4 json-html="address">Address</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" json-html="Farokia_Towers">5C, Farokia Towers, Nozha, Cairo</a></li>
+                                <li><a href="#">+2 010 9971 6655</a></li>
+                                <li><span>info@exabyte-eg.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="single_footer_part">
+                            <h4 json-html="Newsletter">Newsletter</h4>
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
+                                    <input type="email" name="email" id="newsletter-form-email" json-attr="placeholder,Email_ph" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                    <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm" json-html="subscribe">subscribe</button>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                            <div class="social_icon">
+                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a href="#"><i class="ti-twitter-alt"></i></a>
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 copyright" json-html="Lilac_Moda_copy_2020">
+                        Lilac Moda &copy; 2020
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--::footer_part end::-->
+    </div>
+
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom_stockMgmt.js"></script>
+</body>
+
+</html>

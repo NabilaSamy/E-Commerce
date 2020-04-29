@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Setting for UI Setting</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/price_rangs.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body>
+
+    <section class="settingWeb">
+        <div class="p-sm-3">
+            <nav class="navbar navbar-expand-sm bg-light justify-content-center">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="javascript: void(0);" tab-controller="#changeColor" json-html="Color">Color Change</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="javascript: void(0);" tab-controller="#changeFont" json-html="Font">Font Style</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- Start deals with change color setting -->
+            <div id="changeColor" class="" tab>
+                <form class="m-0 contact_form" id="chColor" name="colorWebsite" method="post">
+                    <div class="row mb-30">
+                        <div class="col-sm">
+                            <h3 json-html="choose_color">Choose Color for your Website:</h3>
+                        </div>
+                        <div class="col-sm" id="wrapper">
+                            <input type="color" id="color" />
+                        </div>
+                    </div>
+                    <button type="submit" onclick="changeColorWebsite();" class="btn m-4 btn_3" json-html="Save_change_color">Save changing colors</button>
+                </form>
+            </div>
+            <!-- End deals with change color setting -->
+
+            <!-- Start deals with font style -->
+            <div id="changeFont" class="hidden" tab>
+                <form class="m-0 contact_form" id="change_Font" name="fontStylee" method="post">
+                    <div class="row">
+                        <div class="col-sm-4">
+                            <h3 json-html="change_font_style">Choose Font Style in your Website:</h3>
+                        </div>
+                        <div class="col-sm-8">
+                            <select class="custom-select">
+                                <option selected disabled json-html="Choose_Here">Choose Here</option>
+                                <option value="Arial">Arial, Sans-Serif</option>
+                                <option value="ArialB">Arial Black, Sans-Serif</option>
+                                <option value="ArialN">Arial Narrow, Sans-Serif</option>
+                                <option value="Bookman">Bookman, old-style Serif</option>
+                                <option value="Brush">Brush Script MT, Script typeface</option>
+                                <option value="Candara">Candara, Sans-Serif</option>
+                                <option value="Comic">Comic Sans MS, Sans-Serif</option>
+                                <option value="Courier">Courier, Monospace</option>
+                                <option value="CourierN">Courier New, Monospace</option>
+                                <option value="Calibri">Calibri, Sans-Serif</option>
+                                <option value="Cambria">Cambria, Serif</option>
+                                <option value="Copperplate">Copperplate, Serif</option>
+                                <option value="Georgia">Georgia, Serif</option>
+                                <option value="Palatino">Palatino, old-style Serif</option>
+                                <option value="Garamond">Garamond, old-style Serif</option>
+                                <option value="Geneva">Geneva, Sans-serif</option>
+                                <option value="Helvetica">Helvetica, Sans-Serif</option>
+                                <option value="Impact">Impact, Sans-Serif</option>
+                                <option value="LucidaB">Lucida Bright, Serif</option>
+                                <option value="LucidaC">Lucida Console, Monospace</option>
+                                <option value="Optima">Optima, Sans-Serif</option>
+                                <option value="Roboto">Roboto, Sans-Serif</option>
+                                <option value="Times">Times, Serif</option>
+                                <option value="TimesN">Times New Roman, Serif</option>
+                                <option value="Verdana">Verdana, Sans-Serif</option>
+                            </select>
+                        </div>
+                    </div>
+                    <button type="submit" onclick="changeFontStylee();" class="btn m-4 btn_3" json-html="save_font_style">Save changing font style</button>
+                </form>
+            </div>
+            <!-- End deals with font style -->
+        </div>
+    </section>
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/price_rangs.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#color").change(function() {
+                var clr = $(this).val();
+                $("#wrapper").css("background-color", clr);
+            });
+        });
+
+    </script>
+</body>
+
+</html>

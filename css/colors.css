@@ -1,0 +1,592 @@
+:root {
+    --primaryTheme: violet;
+}
+
+/*
+.color {
+    color: var(--primaryTheme)
+}
+*/
+
+/* line 34, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+/* line 52, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+/* line 72, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss */
+/* line 52, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss ---> this for '.form-contact .form-group .button-contactForm:hover' */
+.btn_1:hover,
+.btn_2:hover,
+.btn_3:hover,
+.form-contact .form-group .button-contactForm:hover,
+.pagination-sm .page-item .page-link,
+.product_description_area .tab-content .total_rate .box_total h4,
+.login_part .login_part_text .btn_3:hover,
+.s_product_text .like_us,
+.shipping_details .single_shopping_details i,
+.form-contact .form-group .btn_1:hover,
+.addDB #cat_display .btn_cat:hover {
+    color: #CCA4CC;
+}
+
+.sidebar .user-name {
+    color: #4d4d4d;
+}
+
+.login_part .login_part_form h3 {
+    color: #808080;
+}
+
+.login_part .creat_account label,
+.login_part .lost_pass {
+    color: #b3b3b3;
+}
+
+/* line 33, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss ---> this for '.main_menu #search_1 i' */
+/* line 1939, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.radion_btn input[type="radio"]:checked ~ label'*/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.pageination .page-link:hover,
+.main_menu #search_1 i,
+.main_menu a i,
+.main_menu .cart i,
+.dropdown .dropdown-menu .dropdown-item,
+.single_product_item .single_product_text a i,
+.single_category_product .category_product_text h5,
+.our_offer .date,
+.best_seller .single_product_item .single_product_text a i,
+.radion_btn input[type="radio"]:checked ~ label,
+.offer_tittle ul li,
+.offer_filter_item ul li,
+.best_offer .single_offer_item .hover_text .social_icon a,
+.form-contact .form-group .btn_1,
+.form-contact .form-group .btn_1 i,
+.returning_customer p,
+.addDB nav a.nav-link,
+.close_card:hover,
+.s_product_text .optionsP li a.active,
+del {
+    color: #000;
+}
+
+p,
+.single_category_product .category_product_text p,
+.cat_product_area .btn_2,
+.widgets_inner p,
+.product_bar_single .nice-select,
+.p_filter_widgets .list li,
+.p_filter_widgets .list li a,
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li {
+    color: #606060;
+}
+
+h2,
+.section_tittle h2,
+.footer_part .single_footer_part .social_icon a:hover {
+    color: #1a1a1a;
+}
+
+.section_tittle p {
+    color: #556172;
+}
+
+.form-control:focus {
+    color: #495057;
+}
+
+.pageination .page-link {
+    color: #979797;
+}
+
+/* line 127, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_button.scss  ---> this for '.button:hover' */
+/* line 52, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss ---> this for '.main_menu #search_input_box ::placeholder' */
+/* line 80, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss ---> this for '.form-contact .form-group .btn_1:hover i' */
+/* line 50, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_footer.scss --> this for '.footer_part .single_footer_part .social_icon a:hover' */
+.submit_btn,
+.btn_1,
+.btn_3,
+.button,
+.button:hover,
+.button-header,
+.button-header:hover,
+.button-contactForm,
+.causes_item .causes_img .c_parcent span:before,
+.causes_item .causes_bottom a,
+.categories_post .categories_details,
+.categories_post .categories_details h5,
+.main_menu .navbar .navbar-brand span,
+.main_menu #search_input_box ::placeholder,
+.main_menu #search_input_box .form-control,
+.main_menu .cart i:after,
+.single_category_product .single_category_img .category_social_icon ul li a i,
+.our_offer .input-group .input-group-text,
+.subscribe_area .input-group .input-group-text,
+.single-product .product-img .p_icon a:hover,
+.product_description_area .nav.nav-tabs li a.active,
+.review_item .media .media-body .reply_btn:hover,
+.tp_btn:hover,
+.login_part .login_part_text h2,
+.login_part .login_part_text p,
+.s_product_text .like_us:hover,
+.card_area .social_icon a,
+.best_offer .single_offer_item .hover_text,
+.best_offer .single_offer_item .hover_text p,
+.best_offer .single_offer_item .hover_text h3,
+.best_offer .single_offer_item .hover_text h5,
+.best_offer .single_offer_item .hover_text .social_icon a:hover,
+.instagram_photo .instagram_photo_iner .single_instgram_photo i,
+.genric-btn.primary,
+.genric-btn.primary-border:hover,
+.genric-btn.success,
+.genric-btn.success-border:hover,
+.genric-btn.info,
+.genric-btn.info-border:hover,
+.genric-btn.warning,
+.genric-btn.warning-border:hover,
+.genric-btn.danger,
+.genric-btn.danger-border:hover,
+.form-contact .form-group .btn_1:hover i,
+.modal-message .modal-dialog .modal-content .modal-header .close,
+.footer_part .single_footer_part .social_icon a:hover,
+.footer_part .single_footer_part h4,
+.footer_part .single_footer_part .list-unstyled li a,
+.footer_part .single_footer_part .mail_part input,
+.main_menu #search_input_box .ti-close,
+.well-primary,
+.carousel-caption.primary,
+.well-warning,
+.carousel-caption.warning,
+.well-info,
+.carousel-caption.info,
+.well-success,
+.carousel-caption.success,
+.well-danger,
+.carousel-caption.danger,
+.openbtn,
+#cat_display .btn_cat,
+.addDB nav a.nav-link:hover,
+.copyright {
+    color: #fff;
+}
+
+.sidebar a {
+    color: #84648C;
+}
+
+.sidebar a:hover {
+    color: #611f51;
+}
+
+.btn_2 {
+    color: #1e1e1e;
+}
+
+.button-link,
+.button-link:hover {
+    color: #3b1d82;
+}
+
+.single-post-area .navigation-top .social-icons li i,
+.single-post-area .navigation-top .social-icons li span,
+.comments-area .date,
+.comment-form .form-control::placeholder,
+.form-contact .form-control::placeholder {
+    color: #999999;
+}
+
+.single-post-area .quote-wrapper,
+.comments-area .btn-reply {
+    color: #888888;
+}
+
+/* line 29, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss --> this for '.contact-info .media-body p' */
+.contact-info .media-body p {
+    color: #8a8a8a;
+}
+
+.single-post-area .social-links li a,
+.cart_inner .table tbody tr.bottom_button td .cupon_text input,
+.cart_inner .table tbody tr.bottom_button td .cupon_text input.placeholder,
+.cart_inner .table tbody tr.bottom_button td .cupon_text input:-moz-placeholder,
+.cart_inner .table tbody tr.bottom_button td .cupon_text input::-moz-placeholder,
+.cart_inner .table tbody tr.bottom_button td .cupon_text input::-webkit-input-placeholder {
+    color: #cccccc;
+}
+
+/* line 59, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_confirmation_part.scss ---> this for '.confirmation_part .order_details_iner span' */
+.comments-area .comment,
+.comment-form .form-control::placeholder,
+.confirmation_part .single_confirmation_details ul li p,
+.confirmation_part .order_details_iner span,
+.breadcrumb .breadcrumb_iner p,
+.s_product_text .optionsP li a {
+    color: #777777;
+}
+
+.comment-form ::-webkit-input-placeholder,
+.comment-form ::-moz-placeholder,
+.comment-form :-moz-placeholder,
+.comment-form :-ms-input-placeholder {
+    color: #777;
+}
+
+/* line 21, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss --->this for '.main_menu .main-menu-item ul li .nav-link:hover' */
+.main_menu .main-menu-item ul li .nav-link,
+.main_menu .main-menu-item ul li .nav-link:hover,
+.footer_part .single_footer_part .mail_part .email_icon,
+.genric-btn.default,
+.genric-btn.default-border:hover,
+.genric-btn.link,
+.genric-btn.link:hover,
+.genric-btn.link-border,
+.genric-btn.link-border:hover,
+.progress-table .table-head .serial,
+.progress-table .table-head .country,
+.progress-table .table-head .visit,
+.progress-table .table-head .percentage,
+.survey .btn-link:hover {
+    color: #2D074E;
+}
+
+.banner_part .slider-counter {
+    color: #cde8eb;
+}
+
+.product_list .section_tittle span {
+    color: #adadad;
+}
+
+/* line 1719, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.order_box .list_2 li:last-child a span'*/
+.single-product .product-img .p_icon a,
+.single-product .product-btm span,
+.most_p_list .media .media-body h4,
+.l_w_title h3,
+.s_product_text h3,
+.s_product_text .card_area .icon_btn,
+.product_description_area .nav.nav-tabs li a,
+.product_description_area .tab-content .total_rate .box_total h5,
+.product_description_area .tab-content .total_rate .rating_list h3,
+.review_item .media .media-body h4,
+.review_item .media .media-body .reply_btn,
+.review_box h4,
+.cart_inner .table tbody tr td h5,
+.cart_inner .table tbody tr.bottom_button .gray_btn,
+.cart_inner .table tbody tr.shipping_area .shipping_box h6,
+.gray_btn,
+.tp_btn,
+.billing_details h3,
+.order_box h2,
+.order_box .list li a .middle,
+.order_box .list_2 li a,
+.order_box .list_2 li:last-child a span,
+.order_box .payment_item h4,
+.order_box .creat_account label,
+.tracking_box_area .tracking_box_inner p,
+.radion_btn label,
+.contact-info .media-body h3 {
+    color: #2a2a2a;
+}
+
+.single-product .product-btm h4,
+.new_product h5 {
+    color: #4a4a4a;
+}
+
+/* line 980, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.review_item p' */
+/* line 65, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss --> this for '.billing_details .contact_form .form-group input.placeholder' */
+/* line 68, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss ---> this for '.billing_details .contact_form .form-group input:-moz-placeholder' */
+/* line 71, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss ---> this for '.billing_details .contact_form .form-group input::-moz-placeholder' */
+/* line 74, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_mixins.scss ---> this for '.billing_details .contact_form .form-group input::-webkit-input-placeholder' */
+/* line 1625, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.billing_details .contact_form .form-group .country_select span' */
+/* line 535, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss  ---> this for '.input-group-icon .icon i'*/
+.single-product .product-btm h5,
+.most_p_list .media .media-body h3,
+.product_description_area .tab-content .total_rate .box_total h6,
+.product_description_area .tab-content .total_rate .rating_list .list li a,
+.product_description_area .tab-content .table tbody tr td h5,
+.review_item p,
+.review_item .media .media-body h5,
+.cart_inner .table thead tr th,
+.cart_inner .table tbody tr.shipping_area .shipping_box .list li a,
+.cart_inner .table tbody tr.shipping_area .shipping_box h6 i,
+.cart_inner .table tbody tr.shipping_area .shipping_box .shipping_select .list li,
+.returning_customer .contact_form .form-group input,
+.returning_customer .contact_form .form-group input.placeholder,
+.returning_customer .contact_form .form-group input:-moz-placeholder,
+.returning_customer .contact_form .form-group input::-moz-placeholder,
+.returning_customer .contact_form .form-group input::-webkit-input-placeholder,
+.returning_customer .contact_form .form-group .lost_pass,
+.billing_details .contact_form .form-group input,
+.billing_details .contact_form .form-group input.placeholder,
+.billing_details .contact_form .form-group input:-moz-placeholder,
+.billing_details .contact_form .form-group input::-moz-placeholder,
+.billing_details .contact_form .form-group input::-webkit-input-placeholder,
+.billing_details .contact_form .form-group .country_select span,
+.order_box .list li a,
+.order_box .list_2 li a span,
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input,
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input.placeholder,
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input:-moz-placeholder,
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input::-moz-placeholder,
+.tracking_box_area .tracking_box_inner .tracking_form .form-group input::-webkit-input-placeholder,
+.input-group-icon .icon i,
+.p_star .placeholder::before,
+.nice-select .option {
+    color: #797979;
+}
+
+.product_top_bar .left_dorp .sorting span,
+.product_top_bar .left_dorp .sorting .list li,
+.product_top_bar .left_dorp .sorting:after,
+.product_top_bar .left_dorp .show span,
+.product_top_bar .left_dorp .show .list li,
+.product_top_bar .left_dorp .show:after,
+.s_product_text .list li a {
+    color: #555555;
+}
+
+.product_top_bar .single_product_menu p {
+    color: #020202;
+}
+
+/* line 716, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.s_product_text .list li a.active' */
+/* line 6, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_confirmation_part.scss */
+/* line 85, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss */
+.s_product_text h2,
+.s_product_text .list li a.active,
+.s_product_text .btn_3:hover,
+.confirmation_part .confirmation_tittle span,
+b,
+sup,
+sub,
+u,
+.disPrice {
+    color: #B464D4;
+}
+
+/* line 711, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.s_product_text .list li a span:hover' */
+/* line 719, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for 's_product_text .list li a.active span' */
+.s_product_text .list li a span:hover,
+.s_product_text .list li a.active span,
+.s_product_text .optionsP span {
+    color: #555;
+}
+
+/* line 920, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+/* line 1003, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss ---> this for '.review_item .media .media-body i' */
+.product_description_area .tab-content .total_rate .rating_list .list li a i,
+.review_item .media .media-body i,
+.review_box .list li a {
+    color: #fbd600;
+}
+
+/* line 928, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_description_area .tab-content .total_rate .rating_list .list li:nth-child a i:last-child {
+    color: #eeeeee;
+}
+
+.checkout_area .form-control :focus {
+    color: #495057;
+}
+
+.p_star .placeholder::after {
+    color: tomato;
+}
+
+.check_title h2 a {
+    color: #8127D4;
+}
+
+/* line 2007, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.login_part .login_part_form .form-control ::placeholder {
+    color: #c3c3c3;
+}
+
+
+
+/* line 41, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_confirmation_part.scss ---> this for '.confirmation_part .single_confirmation_details ul li span' */
+.confirmation_part .single_confirmation_details h4,
+.confirmation_part .single_confirmation_details ul li span,
+.confirmation_part .order_details_iner .table thead th {
+    color: #222222;
+}
+
+/* line 127, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_elements.scss */
+.typography h1,
+.typography h2,
+.typography h3,
+.typography h4,
+.typography h5,
+.typography h6,
+.ordered-list li span,
+.ordered-list-alpha li span,
+.ordered-list-roman li span {
+    color: #828bb2;
+}
+
+/* line 1793, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.order_box .creat_account a {
+    color: #8127D4;
+}
+
+.genric-btn.success:hover,
+.genric-btn.success-border,
+.genric-btn.info:hover {
+    color: #4cd3e3;
+}
+
+.genric-btn.info-border {
+    color: #38a4ff;
+}
+
+.genric-btn.warning:hover,
+.genric-btn.warning-border {
+    color: #f4e700;
+}
+
+.genric-btn.danger:hover,
+.genric-btn.danger-border {
+    color: #f44a40;
+}
+
+.contact-info__icon i,
+.contact-info__icon span {
+    color: #8f9195;
+}
+
+.footer_part .single_footer_part span {
+    color: #E4D4FC;
+}
+
+.footer_part .single_footer_part .social_icon a {
+    color: #333;
+}
+
+.search .fa-search {
+    color: #424d57;
+}
+
+.survey .btn-link {
+    color: #404040;
+}
+
+
+
+
+
+
+
+/* line 95, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_menu.scss */
+.main_menu .active_color {
+    color: #f5790b !important;
+}
+
+/* line 120, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_best_offer.scss */
+.best_offer .single_offer_item .hover_text .rate_icon i {
+    color: #2D074E !important;
+}
+
+.footer_part .single_footer_part .list-unstyled li a:hover {
+    color: #E4D4FC !important;
+}
+
+/* line 156, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_footer.scss */
+.footer_part .info {
+    color: red !important;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* line 151, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_footer.scss */
+.footer_part .copyright_text p a:hover {
+    color: #2f7dfc;
+}
+
+.footer_part .copyright_text span {
+    color: #2f7dfc;
+}
+
+.footer_part .copyright_text p a {
+    color: #2f7dfc;
+}
+
+
+
+/* line 23, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_contact.scss */
+.contact-info .media-body h3 a:hover {
+    color: #2f7dfc;
+}
+
+.form-select .nice-select .list .option.selected,
+.form-select .nice-select .list .option:hover {
+    color: #2f7dfc;
+}
+
+
+.default-select .nice-select .list .option.selected,
+.default-select .nice-select .list .option:hover {
+    color: #2f7dfc;
+}
+
+.ordered-list-roman li {
+    color: #2f7dfc;
+}
+
+.ordered-list-alpha li {
+    color: #2f7dfc;
+}
+
+.ordered-list li {
+    color: #2f7dfc;
+}
+
+.genric-btn.primary:hover {
+    color: #2f7dfc;
+}
+
+.genric-btn.primary-border {
+    color: #2f7dfc;
+}
+
+.best_offer .active {
+    color: #2f7dfc;
+}
+
+
+
+/* line 1650, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.billing_details .contact_form .form-group .creat_account a {
+    color: #2f7dfc;
+}
+
+/* line 448, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.product_top_bar .single_product_menu p span {
+    color: #2f7dfc;
+}
+
+.btn_4 {
+    color: #2f7dfc;
+}
+
+.best_seller .single_product_item .single_product_text a {
+    color: #2f7dfc;
+}
+
+/* line 54, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_banner.scss */
+.banner_part .single_banner_slider .banner_text h1 span {
+    color: #2f7dfc;
+}
+
+.single_product_item .single_product_text a {
+    color: #2f7dfc;
+}
+
+/* line 82, /Applications/MAMP/htdocs/palash/cl/august 2019/202. Shop/202 shop html/sass/_product.scss */
+.single-product:hover .product-btm h4 {
+    color: #2f7dfc;
+}
+
+.subscribe_area h5 {
+    color: #2f7dfc;
+}

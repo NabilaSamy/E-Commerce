@@ -1,0 +1,435 @@
+<!doctype html>
+<html lang="en" json-loc="js/eCommerce-lang.json">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Lilac - Manage Clients</title>
+    <link rel="icon" href="img/favicon.png">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- animate CSS -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- owl carousel CSS -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- flaticon CSS -->
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <!-- font awesome CSS -->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <!-- swiper CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- style CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- colors CSS -->
+    <link rel="stylesheet" href="css/colors.css">
+</head>
+
+<body>
+    <!-- Start Sidemenu -->
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn fa fa-chevron-left" onclick="closeSide()"></a>
+        <img class="mx-auto d-block rounded-circle" src="img/Clients/Client-01.jpg" alt="">
+        <span class="user-name text-center">Nabila Samy</span><br>
+        <a class="text-center" href="userProfile.html"><i class="fas fa-user"></i> Profile</a>
+        <a class="text-center" href="storeAdmin.html"><i class="fas fa-users"></i> Store users</a>
+        <a class="text-center" href="clientsMgmt.html"><i class="fas fa-users"></i> Clients</a>
+        <a class="text-center" href="addNew.html" style="margin-left: -27px;"><i class="fas fa-users"></i> Add in Database</a>
+        <a class="text-center" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+    </div>
+    <!-- End Sidemenu -->
+
+<div id="main">
+ <!--::header part start::-->
+    <header class="main_menu home_menu">
+        <div class="container-fluid">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-11">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <!-- Open Sidemenu -->
+                        <button class="openbtn fa fa-bars" onclick="openSide()"></button>
+						<!-- Navbar -->
+                        <a class="navbar-brand" href="index.html"><span>Lilac</span></a>
+
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse main-menu-item" id="navbarSupportedContent">
+                            <ul class="navbar-nav">
+                                <li class="nav-item"><a class="nav-link" href="index.html" json-html="Home">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="category.html" json-html="Shop">Shop</a></li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="blog.html" id="navbarDropdown_3" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" json-html="pages">pages</a>
+                                    <div class="dropdown-menu" aria-labelledby="navbarDropdown_2">
+                                        <a class="dropdown-item" href="login.html" json-html="Login">Login</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="tracking.html" json-html="Tracking">Tracking</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="checkout.html" json-html="Checkout">Checkout</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="cart.html" json-html="Cart">Shopping Cart</a>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="confirmation.html" json-html="Confirmation">Confirmation</a>
+                                    </div>
+                                </li>
+                                <li class="nav-item"><a class="nav-link" href="about.html" json-html="About">About</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html" json-html="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <form action="category.html" action="GET" class="d-flex justify-content-between search-inner">
+                            <input type="text" class="form-control" id="search_input" name="keyword" json-attr="placeholder,Search_Here_ph" placeholder="Search Here" required>
+                            <button type="submit" class="btn"><i class="fas fa-search"></i></button>
+                        </form>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- Header part end-->
+
+        <!--================Home Banner Area =================-->
+        <!-- breadcrumb start-->
+        <section class="breadcrumb breadcrumb_bg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-12">
+                        <div class="breadcrumb_iner">
+                            <div class="breadcrumb_iner_item">
+                                <p><a href="index.html" style="color: #777777;" json-html="Home">Home</a> / <span json-html="Manage_Clients">Manage Clients</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- breadcrumb end-->
+
+        <!-- Start Filters -->
+        <div class="filterShow">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <span json-html="Active_Clients">Active Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <span json-html="Online_Clients">Online Clients</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <span json-html="Active_Orders">Active Orders</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <span json-html="Return_Orders">Return Orders</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md">
+                        <div class="input-group mb-3">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <input type="checkbox" aria-label="Checkbox for following text input">
+                                    <span json-html="Clients_On_Store">Clients On Store</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Filters -->
+
+        <!-- start add client -->
+        <div class="section-top-border">
+            <div class="container">
+                <h3 class=" mb-30" json-html="Clients">Clients</h3>
+            </div>
+
+            <form class="text-center" name="customers_mgmt_add_cust">
+                <table id="customers_add_cust">
+                    <div class="progress-table-wrap">
+                        <div class="progress-table">
+                            <div class="table-head">
+                                <div class="serial">#</div>
+                                <div class="country" json-html="First_Name">First Name</div>
+                                <div class="country" json-html="Middle_Name">Middle Name</div>
+                                <div class="country" json-html="Last_Name">Last Name</div>
+                                <div class="country" json-html="Telephone">Telephone</div>
+                                <div class="country" json-html="Email">Email</div>
+                                <div class="country" json-html="Type">Type</div>
+                                <div class="country" json-html="Status">Status</div>
+                                <div class="country" json-html="Password">Password</div>
+
+                            </div>
+                            <div class="table-row">
+                                <div class="serial">#</div>
+                                <div class="country">
+                                    <input class="form-control" type="text" id="f_name" name="f_name" json-attr="placeholder,First_Name_ph" placeholder="First Name" required>
+                                </div>
+                                <div class="country">
+                                    <input class="form-control" type="text" id="m_name" name="m_name" json-attr="placeholder,Middle_Name_ph" placeholder="Middle Name" required>
+                                </div>
+                                <div class="country">
+                                    <input class="form-control" type="text" id="l_name" name="l_name" json-attr="placeholder,Last_Name_ph" placeholder="Last Name" required>
+                                </div>
+                                <div class="country">
+                                    <input class="form-control" type="number" id="telephone" name="telephone" json-attr="placeholder,Telephone_ph" placeholder="Telephone" required>
+                                </div>
+                                <div class="country">
+                                    <input class="form-control" type="email" id="email" name="email" json-attr="placeholder,Email_ph" placeholder="Email" required>
+                                </div>
+                                <div class="country">
+                                    <select id="client_type" name="client_type" class="custom-select">
+                                        <option selected disabled json-html="Choose_Here">Choose Here</option>
+                                        <option value="online" json-html="Online">Online</option>
+                                        <option value="store" json-html="Store">Store</option>
+                                    </select>
+                                </div>
+                                <div class="country">
+                                    <select name="active" id="active" class="custom-select">
+                                        <option selected disabled json-html="Choose_Here">Choose Here</option>
+                                        <option value="active" json-html="Active_Clients">Active Client</option>
+                                        <option value="inactive" json-html="Inactive_Clients">Inactive Client</option>
+                                    </select>
+                                </div>
+                                <div class="country">
+                                    <input class="form-control" type="password" id="pswd" name="pswd" json-attr="placeholder,Password_ph" placeholder="Passowrd" required>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </table>
+                <button class="btn btn-secondary" style="left: -16px;" onclick="saveClient();" json-html="Save_Client">Save Client</button>
+            </form>
+            <button class="btn btn-secondary" onclick="add_fields_cust_mgmt();" json-html="Add_Client">Add Client</button>
+            <button class="btn btn-secondary" onclick="changeType();" json-html="Change_Client_Type">Change Client Type</button>
+            <form style="display: inline-block;" action="HomePage.html">
+                <button class="btn btn-secondary" json-html="Cancel">Cancel</button>
+            </form>
+        </div>
+        <!-- end add client -->
+
+        <!-- start Lists -->
+        <section class="lists section_padding">
+            <div class="container">
+                <div class="row">
+                    <div class="list_info col-md-6">
+                        <h3 json-html="List_of_Orders">List for Orders</h3>
+                        <hr>
+                        <span json-html="Order1">Order1:</span>
+                        <p json-html="Order_Details">Order Details:</p>
+                    </div>
+                    <div class="list_info col-md-6">
+                        <h3 json-html="List_of_Clients_Wishlists">List for Clients Wishlists</h3>
+                        <hr>
+                        <span json-html="Customer1">Customer1:</span>
+                        <p json-html="Products">Products:</p>
+                    </div>
+                    <div class="list_info col-md-6">
+                        <h3 json-html="List_of_Return_Orders">List for Return Orders</h3>
+                        <hr>
+                        <span json-html="Order1">Order1:</span>
+                        <p json-html="Order_Details">Order Details:</p>
+                    </div>
+                    <div class="list_info col-md-6">
+                        <h3 json-html="List_of_Clients_Evaluations">List for Clients Evaluations</h3>
+                        <hr>
+                        <span json-html="Customer1">Customer1:</span>
+                        <p json-html="Evaluation">Evaluation:</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end Lists -->
+
+        <!-- Start Carousel/ Slideshow -->
+        <div id="mySlideshow" class="carousel slide text-center" data-ride="carousel" style="margin-top: 127px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-interval="10000">
+                    <img src="img/instagram/inst_1.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_2.jfif" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_3.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="2000">
+                    <img src="img/instagram/inst_4.png" alt="">
+                </div>
+
+                <div class="carousel-item" data-interval="10000">
+                    <img src="img/instagram/inst_5.png" alt="">
+                </div>
+            </div>
+
+            <ol class="carousel-indicators">
+                <li data-target="#mySlideshow" data-slide-to="0" class="active"></li>
+                <li data-target="#mySlideshow" data-slide-to="1"></li>
+                <li data-target="#mySlideshow" data-slide-to="2"></li>
+                <li data-target="#mySlideshow" data-slide-to="3"></li>
+                <li data-target="#mySlideshow" data-slide-to="4"></li>
+            </ol>
+        </div>
+        <!-- End Carousel -->
+
+        <!-- subscribe_area part start-->
+        <section class="instagram_photo">
+            <div class="container-fluid">
+                <div class=" row">
+                    <div class="col-lg-12">
+                        <div class="instagram_photo_iner">
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_1.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_2.jfif" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_3.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_4.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                            <div class="single_instgram_photo">
+                                <img src="img/instagram/inst_5.png" alt="">
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--::subscribe_area part end::-->
+
+        <!--::footer_part start::-->
+        <footer class="footer_part">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="category">Category</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="category.html" json-html="women">Women</a></li>
+                                <li><a href="category.html" json-html="children">Children</a></li>
+                                <li><a href="category.html" json-html="accessories">Accessories</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-2">
+                        <div class="single_footer_part">
+                            <h4 json-html="Company">Company</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="about.html" json-html="About">About</a></li>
+                                <li><a href="contact.html" json-html="Contact">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3">
+                        <div class="single_footer_part">
+                            <h4 json-html="address">Address</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#" json-html="Farokia_Towers">5C, Farokia Towers, Nozha, Cairo</a></li>
+                                <li><a href="#">+2 010 9971 6655</a></li>
+                                <li><span>info@exabyte-eg.com</span></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-4">
+                        <div class="single_footer_part">
+                            <h4 json-html="Newsletter">Newsletter</h4>
+                            <div id="mc_embed_signup">
+                                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01" method="get" class="subscribe_form relative mail_part">
+                                    <input type="email" name="email" id="newsletter-form-email" json-attr="placeholder,Email_ph" placeholder="Email Address" class="placeholder hide-on-focus" onfocus="this.placeholder = ''" onblur="this.placeholder = ' Email Address '">
+                                    <button type="submit" name="submit" id="newsletter-submit" class="email_icon newsletter-submit button-contactForm" json-html="subscribe">subscribe</button>
+                                    <div class="mt-10 info"></div>
+                                </form>
+                            </div>
+                            <div class="social_icon">
+                                <a href="#"><i class="ti-facebook"></i></a>
+                                <a href="#"><i class="ti-twitter-alt"></i></a>
+                                <a href="#"><i class="ti-instagram"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 copyright" json-html="Lilac_Moda_copy_2020">
+                        Lilac Moda &copy; 2020
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--::footer_part end::-->
+    </div>
+
+
+    <!-- jquery plugins here-->
+    <script src="js/jquery-1.12.1.min.js"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- easing js -->
+    <script src="js/jquery.magnific-popup.js"></script>
+    <!-- swiper js -->
+    <script src="js/swiper.min.js"></script>
+    <!-- swiper js -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- particles js -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!--<script src="js/jquery.nice-select.min.js"></script>-->
+    <!-- slick js -->
+    <script src="js/slick.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/36dbc20a4c.js" crossorigin="anonymous"></script>
+    <!-- custom js -->
+    <script src="js/custom.js"></script>
+</body>
+
+</html>
